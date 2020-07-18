@@ -1,0 +1,13 @@
+name: CI
+on:
+    - push
+    - pull_request
+    - workflow_dispatch
+jobs:
+    tests:
+        name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
+        runs-on: ${{ matrix.os }}
+        strategy:
+            matrix:
+                node_version: ['14', '16', '18', '19']
+                o
