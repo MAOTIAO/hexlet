@@ -23,4 +23,6 @@ jobs:
                   key: npm-${{ hashFiles('yarn.lock') }}-${{ matrix.os }}-${{ matrix.node_version }}
                   restore-keys: npm-
             - name: Install dependencies
-       
+              if: steps.cache.outputs.cache-hit != 'true'
+              run: yarn install --frozen-lockfile
+            - run: yarn test
