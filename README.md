@@ -26,3 +26,24 @@ git config --global core.pager "git-split-diffs --color | less -RFX"
 npm install git-split-diffs
 
 git config core.pager "npx git-split-diffs --color | less -RFX"
+```
+
+### Use manually
+
+```sh
+git diff | git-split-diffs --color | less -RFX
+```
+
+## Customization
+
+### Line wrapping
+
+By default, lines are wrapped to fit in the screen. If you prefer to truncate them, update the `wrap-lines` setting:
+
+```
+git config split-diffs.wrap-lines false
+```
+
+### Inline changes
+
+By default
