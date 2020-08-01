@@ -46,4 +46,14 @@ git config split-diffs.wrap-lines false
 
 ### Inline changes
 
-By default
+By default, salient changes within lines are also highlighted:
+![Screenshot of inline changes](screenshots/inline-changes.png?raw=true)
+
+You can disable this with the `highlight-line-changes` setting:
+
+```
+git config split-diffs.highlight-line-changes false
+```
+
+### Enable scrolling in the terminal
+
