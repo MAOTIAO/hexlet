@@ -65,4 +65,12 @@ git config --global core.pager "git-split-diffs --color | less -+LFX"
 
 ### Syntax highlighting
 
-Syntax highlighting is supported via [shiki](https://github.com/shikijs/shiki/), which uses the same grammars an
+Syntax highlighting is supported via [shiki](https://github.com/shikijs/shiki/), which uses the same grammars and themes as vscode. Each theme specifies a default syntax highlighting theme to use, which can be overridden by:
+
+```
+git config split-diffs.syntax-highlighting-theme <name>
+```
+
+The supported syntax highlighting themes are listed at https://github.com/shikijs/shiki/blob/v0.9.3/docs/themes.md
+
+You ca
