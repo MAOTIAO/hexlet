@@ -73,4 +73,12 @@ git config split-diffs.syntax-highlighting-theme <name>
 
 The supported syntax highlighting themes are listed at https://github.com/shikijs/shiki/blob/v0.9.3/docs/themes.md
 
-You ca
+You can disable syntax highlighting by setting the name to empty:
+
+```
+git config split-diffs.syntax-highlighting-theme ''
+```
+
+### Narrow terminals
+
+Split diffs can be hard to read on narrow terminals, so we revert to unified diffs if we cannot fit two lines of `min-line-width` on scree
