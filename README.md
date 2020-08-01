@@ -57,3 +57,12 @@ git config split-diffs.highlight-line-changes false
 
 ### Enable scrolling in the terminal
 
+```sh
+git config --global core.pager "git-split-diffs --color | less -+LFX"
+```
+
+(note the difference from the main configuration with the added `+` to the `less` command)
+
+### Syntax highlighting
+
+Syntax highlighting is supported via [shiki](https://github.com/shikijs/shiki/), which uses the same grammars an
