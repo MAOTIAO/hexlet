@@ -81,4 +81,16 @@ git config split-diffs.syntax-highlighting-theme ''
 
 ### Narrow terminals
 
-Split diffs can be hard to read on narrow terminals, so we revert to unified diffs if we cannot fit two lines of `min-line-width` on scree
+Split diffs can be hard to read on narrow terminals, so we revert to unified diffs if we cannot fit two lines of `min-line-width` on screen. This value is configurable:
+
+```
+git config split-diffs.min-line-width 40
+```
+
+This defaults to `80`, so screens below `160` characters will display unified diffs. Set it to `0` to always show split diffs.
+
+## Themes
+
+You can pick between several [themes](themes/):
+
+### 
