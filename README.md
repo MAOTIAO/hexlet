@@ -93,4 +93,22 @@ This defaults to `80`, so screens below `160` characters will display unified di
 
 You can pick between several [themes](themes/):
 
-### 
+### Arctic
+
+Based on https://www.nordtheme.com/
+
+```
+git config split-diffs.theme-name arctic
+```
+
+![Screenshot of GitHub Dark (Dim) theme](screenshots/arctic.png?raw=true)
+
+### Dark
+
+This is the default theme.
+
+```
+git config split-diffs.theme-name dark
+```
+
+![Screenshot of dark theme](sc
