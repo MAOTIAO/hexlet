@@ -127,4 +127,19 @@ git config split-diffs.theme-name light
 git config split-diffs.theme-name github-dark-dim
 ```
 
-![Screenshot of GitHub Dark (Dim) theme](screenshots/git
+![Screenshot of GitHub Dark (Dim) theme](screenshots/github-dark-dim.png?raw=true)
+
+### GitHub Light
+
+```
+git config split-diffs.theme-name github-light
+```
+
+![Screenshot of GitHub Light theme](screenshots/github-light.png?raw=true)
+
+### Solarized Dark
+
+As seen on https://github.com/altercation/solarized
+
+```
+git config split-diffs.theme-name solarized-dark
