@@ -111,4 +111,20 @@ This is the default theme.
 git config split-diffs.theme-name dark
 ```
 
-![Screenshot of dark theme](sc
+![Screenshot of dark theme](screenshots/dark.png?raw=true)
+
+### Light
+
+```
+git config split-diffs.theme-name light
+```
+
+![Screenshot of light theme](screenshots/light.png?raw=true)
+
+### GitHub Dark (Dim)
+
+```
+git config split-diffs.theme-name github-dark-dim
+```
+
+![Screenshot of GitHub Dark (Dim) theme](screenshots/git
