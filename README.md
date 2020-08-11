@@ -173,4 +173,8 @@ git config split-diffs.theme-name monochrome-light
 
 ## Performance
 
-Tested
+Tested by measuring the time it took to pipe the output `git log -p` to `/dev/null` via `git-split-diffs` with the default theme:
+
+| Features enabled                                      | ms/kloc         |
+| ----------------------------------------------------- | --------------- |
+| Everyth
