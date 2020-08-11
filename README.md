@@ -158,4 +158,19 @@ git config split-diffs.theme-name solarized-light
 ### Monochrome Dark
 
 ```
-git config 
+git config split-diffs.theme-name monochrome-dark
+```
+
+![Screenshot of Monochrome Dark theme](screenshots/monochrome-dark.png?raw=true)
+
+### Monochrome Light
+
+```
+git config split-diffs.theme-name monochrome-light
+```
+
+![Screenshot of Monochrome Light theme](screenshots/monochrome-light.png?raw=true)
+
+## Performance
+
+Tested
