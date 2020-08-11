@@ -143,3 +143,19 @@ As seen on https://github.com/altercation/solarized
 
 ```
 git config split-diffs.theme-name solarized-dark
+```
+
+![Screenshot of Solarized Dark theme](screenshots/solarized-dark.png?raw=true)
+
+### Solarized Light
+
+```
+git config split-diffs.theme-name solarized-light
+```
+
+![Screenshot of Solarized Light theme](screenshots/solarized-light.png?raw=true)
+
+### Monochrome Dark
+
+```
+git config 
