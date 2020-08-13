@@ -191,4 +191,4 @@ See [#narrow-terminals](#narrow-terminals)
 
 ### Not seeing colors, or seeing fewer colors?
 
-Text coloring is implemented using Chalk which supports [various levels of color](https://github.com/chalk/chalk#supportscolor). If Cha
+Text coloring is implemented using Chalk which supports [various levels of color](https://github.com/chalk/chalk#supportscolor). If Chalk is producing fewer colors than your terminal supports, try overriding Chalk's detection using a variation of the `--color` flag, e.g. `--color=16m` for true color. See Chalk's documentation or [this useful gist on terminal support](https://gist.github.com/XVilka
