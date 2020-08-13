@@ -181,4 +181,14 @@ Tested by measuring the time it took to pipe the output `git log -p` to `/dev/nu
 | No syntax highlighting                                | 40              |
 | No syntax highlighting, no inline change highlighting | 34              |
 
-<sup>1</sup> https://github.com/shikijs/shiki/pull/151 improves this 
+<sup>1</sup> https://github.com/shikijs/shiki/pull/151 improves this to 333ms/kloc
+
+## Troubleshooting
+
+### Not seeing diffs side-by-side?
+
+See [#narrow-terminals](#narrow-terminals)
+
+### Not seeing colors, or seeing fewer colors?
+
+Text coloring is implemented using Chalk which supports [various levels of color](https://github.com/chalk/chalk#supportscolor). If Cha
