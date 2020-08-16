@@ -196,4 +196,6 @@ Text coloring is implemented using Chalk which supports [various levels of color
 ## Acknowledgements
 
 -   [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) for showing what's possible
--   [shikijs](https://github.com/shikijs/shiki) for making it easy to do high quality syntax hig
+-   [shikijs](https://github.com/shikijs/shiki) for making it easy to do high quality syntax highlighting
+-   [chalk](https://github.com/chalk/chalk) for making it easy to do terminal styling reliably
+-   [delta](https://github.com/dandavison/delta) which approaches the same problem in Rust
