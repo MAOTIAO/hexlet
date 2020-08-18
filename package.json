@@ -15,4 +15,18 @@
         "node": ">=14"
     },
     "keywords": [
-        "git
+        "git",
+        "terminal",
+        "shell",
+        "diff",
+        "diffs"
+    ],
+    "dependencies": {
+        "ansi-regex": "^5.0.0",
+        "chalk": "^4.1.0",
+        "diff": "^5.0.0",
+        "shiki": "^0.12.0",
+        "term-size": "^2.2.1"
+    },
+    "scripts": {
+      
