@@ -2,4 +2,17 @@
     "name": "git-split-diffs",
     "version": "0.14.0",
     "description": "Split diffs, now in your terminal",
-    "homepage": "https://github.com/
+    "homepage": "https://github.com/banga/git-split-diffs",
+    "repository": "github:banga/git-split-diffs",
+    "bin": "./bin/git-split-diffs",
+    "files": [
+        "bin/*",
+        "build/*.js",
+        "themes/*.json"
+    ],
+    "license": "MIT",
+    "engines": {
+        "node": ">=14"
+    },
+    "keywords": [
+        "git
