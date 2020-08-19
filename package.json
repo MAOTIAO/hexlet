@@ -29,4 +29,7 @@
         "term-size": "^2.2.1"
     },
     "scripts": {
-      
+        "test": "tsc && jest",
+        "clean": "rimraf ./build/*",
+        "build": "yarn clean && yarn esbuild --external:ansi-regex --external:chalk --external:diff --external:shiki --external:term-size --platform=node --target=node14 --outdir=build --bundle",
+        "build
