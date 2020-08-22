@@ -32,4 +32,8 @@
         "test": "tsc && jest",
         "clean": "rimraf ./build/*",
         "build": "yarn clean && yarn esbuild --external:ansi-regex --external:chalk --external:diff --external:shiki --external:term-size --platform=node --target=node14 --outdir=build --bundle",
-        "build
+        "build:dev": "yarn build src/index.ts src/benchmark.ts src/previewTheme.ts",
+        "build:publish": "yarn build src/index.ts --minify",
+        "previewTheme": "nodemon -q build/previewTheme.js",
+        "benchmark": "yarn build:dev && node build/benchmark.js",
+        "prepublishOnly": "yarn test && yarn bui
