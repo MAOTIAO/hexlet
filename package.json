@@ -36,4 +36,14 @@
         "build:publish": "yarn build src/index.ts --minify",
         "previewTheme": "nodemon -q build/previewTheme.js",
         "benchmark": "yarn build:dev && node build/benchmark.js",
-        "prepublishOnly": "yarn test && yarn bui
+        "prepublishOnly": "yarn test && yarn build:publish"
+    },
+    "devDependencies": {
+        "@types/benchmark": "^2.1.0",
+        "@types/diff": "^5.0.0",
+        "@types/jest": "^26.0.22",
+        "@types/node": "12.12.6",
+        "benchmark": "^2.1.4",
+        "esbuild": "^0.16.10",
+        "jest": "^27.2.5",
+        "nod
