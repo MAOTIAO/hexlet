@@ -1,4 +1,16 @@
 /**
  * A string whose substrings can be marked by arbitrary objects.
  *
- * The string can be iterated over to get substrings with the list
+ * The string can be iterated over to get substrings with the list of objects
+ * applied to them, in the order they were applied.
+ */
+type Span<T> = {
+    id: number;
+    attribute: T;
+    isStart: boolean;
+};
+
+export class SpannedString<T> {
+    private _string: string = '';
+    private _spanMarkers: (Span<T>[] | undefined)[] = [undefined];
+    p
