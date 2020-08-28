@@ -13,4 +13,17 @@ type Span<T> = {
 export class SpannedString<T> {
     private _string: string = '';
     private _spanMarkers: (Span<T>[] | undefined)[] = [undefined];
-    p
+    private _nextId: number = 0;
+
+    constructor(
+        string: string,
+        spans: (Span<T>[] | undefined)[],
+        nextId: number
+    ) {
+        this._string = string;
+        this._spanMarkers = spans;
+        this._nextId = nextId;
+    }
+
+    static create<T>() {
+        return new SpannedStr
