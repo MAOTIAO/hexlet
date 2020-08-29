@@ -34,4 +34,16 @@ export class SpannedString<T> {
         this._spanMarkers[startIndex]!.push({
             id: this._nextId,
             attribute,
-   
+            isStart: true,
+        });
+
+        this._spanMarkers[endIndex] = this._spanMarkers[endIndex] ?? [];
+        this._spanMarkers[endIndex]!.push({
+            id: this._nextId,
+            attribute,
+            isStart: false,
+        });
+
+        this._nextId++;
+
+      
