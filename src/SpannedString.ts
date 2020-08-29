@@ -54,4 +54,14 @@ export class SpannedString<T> {
         const endIndex = startIndex + string.length;
 
         this._string += string;
-        this._spanMarkers = this._spanMarkers.conca
+        this._spanMarkers = this._spanMarkers.concat(new Array(string.length));
+
+        for (const attribute of attributes) {
+            this.addSpan(startIndex, endIndex, attribute);
+        }
+
+        return this;
+    }
+
+    appendSpannedString(other: SpannedString<T>): SpannedString<T> {
+        this._string = this._string.concat(othe
