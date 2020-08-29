@@ -26,4 +26,12 @@ export class SpannedString<T> {
     }
 
     static create<T>() {
-        return new SpannedStr
+        return new SpannedString<T>('', [undefined], 0);
+    }
+
+    addSpan(startIndex: number, endIndex: number, attribute: T) {
+        this._spanMarkers[startIndex] = this._spanMarkers[startIndex] ?? [];
+        this._spanMarkers[startIndex]!.push({
+            id: this._nextId,
+            attribute,
+   
