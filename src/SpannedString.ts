@@ -64,4 +64,11 @@ export class SpannedString<T> {
     }
 
     appendSpannedString(other: SpannedString<T>): SpannedString<T> {
-        this._string = this._string.concat(othe
+        this._string = this._string.concat(other._string);
+
+        // The trailing span marker of this string and leading span marker of
+        // the other string will overlap, so we need to merge it
+        const spanMarkers = this._spanMarkers.concat(
+            new Array(other._spanMarkers.length - 1)
+        );
+        const overlappingSpanIndex =
