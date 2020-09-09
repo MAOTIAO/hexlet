@@ -71,4 +71,12 @@ export class SpannedString<T> {
         const spanMarkers = this._spanMarkers.concat(
             new Array(other._spanMarkers.length - 1)
         );
-        const overlappingSpanIndex =
+        const overlappingSpanIndex = this._spanMarkers.length - 1;
+        for (
+            let otherIndex = 0;
+            otherIndex < other._spanMarkers.length;
+            otherIndex++
+        ) {
+            const otherSpans = other._spanMarkers[otherIndex];
+            if (otherSpans) {
+                const index = otherIndex + overlappingSpa
