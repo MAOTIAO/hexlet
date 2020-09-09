@@ -79,4 +79,12 @@ export class SpannedString<T> {
         ) {
             const otherSpans = other._spanMarkers[otherIndex];
             if (otherSpans) {
-                const index = otherIndex + overlappingSpa
+                const index = otherIndex + overlappingSpanIndex;
+                spanMarkers[index] = spanMarkers[index] ?? [];
+                spanMarkers[index]?.push(...otherSpans);
+            }
+        }
+        this._spanMarkers = spanMarkers;
+
+        // We don't need to remap the ids of the spans, because they only occur
+        // together in 
