@@ -87,4 +87,9 @@ export class SpannedString<T> {
         this._spanMarkers = spanMarkers;
 
         // We don't need to remap the ids of the spans, because they only occur
-        // together in 
+        // together in one place, `overlappingSpanIndex` and at that index, all
+        // the spans of the first string must be closing and all the spans of
+        // the second string must be opening.
+        this._nextId = Math.max(this._nextId, other._nextId);
+
+        return t
