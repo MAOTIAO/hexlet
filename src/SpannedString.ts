@@ -92,4 +92,14 @@ export class SpannedString<T> {
         // the second string must be opening.
         this._nextId = Math.max(this._nextId, other._nextId);
 
-        return t
+        return this;
+    }
+
+    slice(
+        startIndex: number,
+        endIndex: number = this._string.length
+    ): SpannedString<T> {
+        if (startIndex < 0 || endIndex < 0) {
+            throw new Error('Invalid start or end index');
+        }
+        if (startIndex > this._string
