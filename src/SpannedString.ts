@@ -102,4 +102,13 @@ export class SpannedString<T> {
         if (startIndex < 0 || endIndex < 0) {
             throw new Error('Invalid start or end index');
         }
-        if (startIndex > this._string
+        if (startIndex > this._string.length) {
+            startIndex = this._string.length;
+        }
+        if (endIndex > this._string.length) {
+            endIndex = this._string.length;
+        }
+
+        const spanMarkers = new Array(endIndex + 1 - startIndex);
+        const activeSpansById = new Map<number, Span<T>>();
+        
