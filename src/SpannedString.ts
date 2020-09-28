@@ -133,4 +133,11 @@ export class SpannedString<T> {
                         activeSpansById.delete(span.id);
                     }
                 }
-                if (sliceIndex >= 0 && sliceIndex < s
+                if (sliceIndex >= 0 && sliceIndex < spanMarkers.length) {
+                    spanMarkers[sliceIndex] = spanMarkers[sliceIndex] ?? [];
+                    spanMarkers[sliceIndex].push(...spans);
+                }
+            }
+
+            if (sliceIndex === 0) {
+                spanMarkers[0] = 
