@@ -111,4 +111,10 @@ export class SpannedString<T> {
 
         const spanMarkers = new Array(endIndex + 1 - startIndex);
         const activeSpansById = new Map<number, Span<T>>();
-        
+        for (let index = 0; index < this._spanMarkers.length; index++) {
+            const sliceIndex = index - startIndex;
+
+            if (sliceIndex === spanMarkers.length - 1) {
+                spanMarkers[spanMarkers.length - 1] = Array.from(
+                    activeSpansById.values()
+                ).m
