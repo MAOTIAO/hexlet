@@ -117,4 +117,13 @@ export class SpannedString<T> {
             if (sliceIndex === spanMarkers.length - 1) {
                 spanMarkers[spanMarkers.length - 1] = Array.from(
                     activeSpansById.values()
-                ).m
+                ).map(({ id, attribute }) => ({
+                    id,
+                    attribute,
+                    isStart: false,
+                }));
+            }
+
+            const spans = this._spanMarkers[index];
+            if (spans) {
+                for (const span of spans) {
