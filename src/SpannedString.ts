@@ -127,3 +127,10 @@ export class SpannedString<T> {
             const spans = this._spanMarkers[index];
             if (spans) {
                 for (const span of spans) {
+                    if (span.isStart) {
+                        activeSpansById.set(span.id, span);
+                    } else {
+                        activeSpansById.delete(span.id);
+                    }
+                }
+                if (sliceIndex >= 0 && sliceIndex < s
