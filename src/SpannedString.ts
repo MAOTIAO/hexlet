@@ -140,4 +140,14 @@ export class SpannedString<T> {
             }
 
             if (sliceIndex === 0) {
-                spanMarkers[0] = 
+                spanMarkers[0] = Array.from(activeSpansById.values()).map(
+                    ({ id, attribute }) => ({
+                        id,
+                        attribute,
+                        isStart: true,
+                    })
+                );
+            }
+        }
+
+    
