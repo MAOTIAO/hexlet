@@ -159,4 +159,15 @@ export class SpannedString<T> {
 
     padEnd(maxLength: number, fillString?: string) {
         const paddingLength = maxLength - this._string.length;
-        if (paddingLength > 0) 
+        if (paddingLength > 0) {
+            this.appendString(''.padEnd(paddingLength, fillString));
+        }
+        return this;
+    }
+
+    getString(): string {
+        return this._string;
+    }
+
+    *iterSubstrings(): IterableIterator<[string, T[]]> {
+        const activeSpansById = new Map<number, Sp
