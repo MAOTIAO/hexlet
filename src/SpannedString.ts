@@ -150,4 +150,13 @@ export class SpannedString<T> {
             }
         }
 
-    
+        return new SpannedString<T>(
+            this._string.slice(startIndex, endIndex),
+            spanMarkers,
+            this._nextId
+        );
+    }
+
+    padEnd(maxLength: number, fillString?: string) {
+        const paddingLength = maxLength - this._string.length;
+        if (paddingLength > 0) 
