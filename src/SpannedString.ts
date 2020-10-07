@@ -170,4 +170,12 @@ export class SpannedString<T> {
     }
 
     *iterSubstrings(): IterableIterator<[string, T[]]> {
-        const activeSpansById = new Map<number, Sp
+        const activeSpansById = new Map<number, Span<T>>();
+
+        function getActiveAttributes() {
+            return (
+                Array.from(activeSpansById.values())
+                    // Attributes should be returned in the order they were
+                    // applied.
+                    .sort((a, b) => a.id - b.id)
+             
