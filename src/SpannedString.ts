@@ -198,4 +198,14 @@ export class SpannedString<T> {
             }
 
             for (const span of spans) {
-           
+                if (span.isStart) {
+                    activeSpansById.set(span.id, span);
+                } else {
+                    activeSpansById.delete(span.id);
+                }
+            }
+
+            lastIndex = spanIndex;
+        }
+
+        if (lastIndex < this._string.len
