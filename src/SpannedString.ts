@@ -186,4 +186,16 @@ export class SpannedString<T> {
         for (let spanIndex = 0; spanIndex <= this._string.length; spanIndex++) {
             const spans = this._spanMarkers[spanIndex];
 
-            if (spans === undefined || spans.le
+            if (spans === undefined || spans.length === 0) {
+                continue;
+            }
+
+            if (spanIndex > lastIndex) {
+                yield [
+                    this._string.slice(lastIndex, spanIndex),
+                    getActiveAttributes(),
+                ];
+            }
+
+            for (const span of spans) {
+           
