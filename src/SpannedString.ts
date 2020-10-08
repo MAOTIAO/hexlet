@@ -178,4 +178,12 @@ export class SpannedString<T> {
                     // Attributes should be returned in the order they were
                     // applied.
                     .sort((a, b) => a.id - b.id)
-             
+                    .map((span) => span.attribute)
+            );
+        }
+
+        let lastIndex = 0;
+        for (let spanIndex = 0; spanIndex <= this._string.length; spanIndex++) {
+            const spans = this._spanMarkers[spanIndex];
+
+            if (spans === undefined || spans.le
