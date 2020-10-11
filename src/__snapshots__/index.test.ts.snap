@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inlineChangesHighlighted commit with a small diff 1`] = `
+"
+commit 26ca49fb83758bace20a473e231d576aa1bbe115                          

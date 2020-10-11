@@ -208,4 +208,8 @@ export class SpannedString<T> {
             lastIndex = spanIndex;
         }
 
-        if (lastIndex < this._string.len
+        if (lastIndex < this._string.length) {
+            yield [this._string.slice(lastIndex), getActiveAttributes()];
+        }
+    }
+}
