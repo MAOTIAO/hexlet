@@ -88,4 +88,18 @@ Date:   Thu Aug 22 10:07:25 2019 -0700
     Remove deprecated option
 
 diff --git a/Code/User/settings.json b/Code/User/settings.json
-index a33d2
+index a33d267..ae58a01 100644
+--- a/Code/User/settings.json
++++ b/Code/User/settings.json
+@@ -26,5 +26,4 @@
+   // search
+   \\"search.location\\": \\"panel\\",
+-  \\"search.usePCRE2\\": true,
+
+   // telemetry
+"
+`;
+
+exports[`inlineChangesHighlighted commit with file addition 1`] = `
+"
+comm
