@@ -137,4 +137,6 @@ Date:   Sun Apr 18 03:17:05 2021 -0700
     2  -     with timeout of 5 seconds                                                                                  
     3  -         tell app \\"Terminal\\"                                                                                    
     4  -             open \\"screenshots.sh\\"                                                                              
-    5  -         end tell   
+    5  -         end tell                                                                                               
+    6  -     end timeout                                                                                                
+    7  - end run                                                                
