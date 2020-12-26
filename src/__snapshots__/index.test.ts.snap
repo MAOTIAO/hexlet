@@ -189,4 +189,6 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
                                                                27  +             \\"big_sur\\": {                           
                                                                28  +               \\"url\\": \\"https://homebrew.bintray.com/
                                                                29  +               \\"sha256\\": \\"ea37f33fd27369612a3e4e6db6
-                                                         
+                                                               30  +             },                                     
+@@ -22,2 +32,2 @@                                                                                                       
+   22  -               \\"url\\": \\"https://homebrew.bintray.com/   32  +               \\"url\\": \\"https://
