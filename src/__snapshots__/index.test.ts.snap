@@ -196,4 +196,6 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
 @@ -26,6 +36,2 @@                                                                                                       
    26  -               \\"url\\": \\"https://homebrew.bintray.com/   36  +               \\"url\\": \\"https://homebrew.bintray.com/
    27  -               \\"sha256\\": \\"░░░░░░░░░░░░░░░░░░░░░░░░░░   37  +               \\"sha256\\": \\"░░░░░░░░░░░░░░░░░░░░░░░░░░
-   28  -             },                             
+   28  -             },                                                                                                 
+   29  -             \\"high_sierra\\": {                                                                                   
+   30  -               \\"url\\": \\"https://homebrew.bintray.com/                                             
