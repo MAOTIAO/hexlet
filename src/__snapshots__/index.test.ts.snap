@@ -198,4 +198,10 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
    27  -               \\"sha256\\": \\"░░░░░░░░░░░░░░░░░░░░░░░░░░   37  +               \\"sha256\\": \\"░░░░░░░░░░░░░░░░░░░░░░░░░░
    28  -             },                                                                                                 
    29  -             \\"high_sierra\\": {                                                                                   
-   30  -               \\"url\\": \\"https://homebrew.bintray.com/                                             
+   30  -               \\"url\\": \\"https://homebrew.bintray.com/                                                            
+   31  -               \\"sha256\\": \\"0997f6f5cda0e3bdb7789a80b5                                                            
+   32                                                          38                                                       
+"
+`;
+
+exports[`inlineChangesHig
