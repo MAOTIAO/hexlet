@@ -269,4 +269,6 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
     3    import terminalSize from 'term-size';                  4    import terminalSize from 'term-size';              
     4    import { iterlinesFromReadableAsync } from './iterL    5    import { iterlinesFromReadableAsync } from './iterL
     5    import { iterLinesWithoutAnsiColors } from './iterL    6    import { iterLinesWithoutAnsiColors } from './iterL
-@@ -12
+@@ -12,15 +13,16 @@ function main() {                                                                                   
+   12        const screenWidth = terminalSize().columns;       13        const screenWidth = terminalSize().columns;    
+   13        const theme = defaultTheme(chalk, screenWidth);   14 
