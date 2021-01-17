@@ -276,4 +276,7 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
    15  -     transformStreamWithIterables(                     16  +     stream.pipeline(                               
    16  -         process.stdin,                                17  +         transformStreamWithIterables(              
    17  -         [                                             18  +             process.stdin,                         
-   18                iterlinesFromReadableAsync,               19         
+   18                iterlinesFromReadableAsync,               19                iterlinesFromReadableAsync,            
+   19                iterLinesWithoutAnsiColors,               20                iterLinesWithoutAnsiColors,            
+   20                iterSideBySideDiff(theme),                21                iterSideBySideDiff(theme),             
+   
