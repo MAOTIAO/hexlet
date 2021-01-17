@@ -274,4 +274,6 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
    13        const theme = defaultTheme(chalk, screenWidth);   14        const theme = defaultTheme(chalk, screenWidth);
    14                                                          15                                                       
    15  -     transformStreamWithIterables(                     16  +     stream.pipeline(                               
-   16  -         process.stdin
+   16  -         process.stdin,                                17  +         transformStreamWithIterables(              
+   17  -         [                                             18  +             process.stdin,                         
+   18                iterlinesFromReadableAsync,               19         
