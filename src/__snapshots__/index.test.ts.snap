@@ -285,4 +285,11 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
                                                                25  +         console.error                              
    24        );                                                26        );                                             
    25    }                                                     27    }                                                  
-   26                                                          28                                              
+   26                                                          28                                                       
+"
+`;
+
+exports[`inlineChangesHighlighted with ANSI color codes 1`] = `
+"
+commit f735de7025c6d626c5ae1a291fe24f143dea0313                                                                         
+Author: Shrey Banga <banga.shrey@gmail.com>                                         
