@@ -307,4 +307,6 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
                                                                10  + -   [x] Move visual config to theme                
    10    -   [ ] Handle empty diffs                            11    -   [ ] Handle empty diffs                         
    11    -   [ ] Handle moves and renames without diffs        12    -   [ ] Handle moves and renames without diffs     
-   12    -  
+   12    -   [ ] Highlight changes in lines                    13    -   [ ] Highlight changes in lines                 
+   13                                                          14                                                       
+   14                                      
