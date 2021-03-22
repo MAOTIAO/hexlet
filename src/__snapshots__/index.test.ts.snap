@@ -436,4 +436,8 @@ exports[`splitWithWrapping commit with file deletion 1`] = `
 "
 commit 1e6ebaccc6fadf3390a749e7aa2cc6372b24325e                                 
 Author: Shrey Banga <banga.shrey@gmail.com>                                     
-Date:   Sun Apr 18 03:17:05 2021 -0700                         
+Date:   Sun Apr 18 03:17:05 2021 -0700                                          
+                                                                                
+    Update main.yml                                                             
+                                                                                
+────────────────────────────────────
