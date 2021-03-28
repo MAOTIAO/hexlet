@@ -454,4 +454,11 @@ Date:   Sun Apr 18 03:17:05 2021 -0700
          \\"screenshots.sh\\"                                                       
     5  -         end tell                                                       
     6  -     end timeout                                                        
-    7  - end run                  
+    7  - end run                                                                
+    8    No newline at end of file                                              
+"
+`;
+
+exports[`splitWithWrapping commit with file move 1`] = `
+"
+commit 1c76ed4bb05429741fd4a48896bb84b11bc661f5                            
