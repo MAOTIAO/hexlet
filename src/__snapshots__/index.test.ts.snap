@@ -468,4 +468,12 @@ Date:   Sat Apr 10 22:26:15 2021 -0700
     Move sample diff files                                                      
                                                                                 
 ────────────────────────────────────────────────────────────────────────────────
- ■■ colors.diff -> test-data/colors.diff                               
+ ■■ colors.diff -> test-data/colors.diff                                        
+────────────────────────────────────────────────────────────────────────────────
+"
+`;
+
+exports[`splitWithWrapping commit with inline line changes 1`] = `
+"
+commit 9e424d329800e945e3003c9e275f80bdef69e591                                 
+Author: Shrey Banga <banga.shrey@gmail.com> 
