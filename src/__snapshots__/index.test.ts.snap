@@ -519,4 +519,7 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
                                                  df6fac1332bf51bafaa66d43969\\"   
                                            30  +             },                 
 @@ -22,2 +32,2 @@                                                               
-   22  
+   22  -               \\"url\\": \\"https://h   32  +               \\"url\\": \\"https://h
+         omebrew.bintray.com/bottles/go-         omebrew.bintray.com/bottles/go-
+         1.14.2_1.catalina.bottle.tar.gz         1.16.3.catalina.bottle.tar.gz\\",
+         \\",                          
