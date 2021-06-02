@@ -501,4 +501,8 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
                                            21  +           \\"root_url\\": \\"https://
                                                  homebrew.bintray.com/bottles\\", 
 @@ -20,0 +23,8 @@                                                               
-                                           23  +         
+                                           23  +             \\"arm64_big_sur\\": { 
+                                           24  +               \\"url\\": \\"https://h
+                                                 omebrew.bintray.com/bottles/go-
+                                                 1.16.3.arm64_big_sur.bottle.tar
+     
