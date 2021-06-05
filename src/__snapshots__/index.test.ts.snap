@@ -529,4 +529,7 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
 @@ -26,6 +36,2 @@                                                               
    26  -               \\"url\\": \\"https://h   36  +               \\"url\\": \\"https://h
          omebrew.bintray.com/bottles/go-         omebrew.bintray.com/bottles/go-
-         1.14.2_1.mojave.bottle.tar.gz\\",       
+         1.14.2_1.mojave.bottle.tar.gz\\",         1.16.3.mojave.bottle.tar.gz\\",  
+   27  -               \\"sha256\\": \\"fa65e7   37  +               \\"sha256\\": \\"bf1e90
+         dabe514e65ae625ed3c84a6bf58df01         ed1680b8ee1acb49f2f99426c8a8ac3
+         aceffc6e9aa99752ca8c320ce69\\"            e49efd63c7f3b41e57e7214dd19\\"   
