@@ -540,4 +540,12 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
          1.14.2_1.high_sierra.bottle.tar                                        
          .gz\\",                                                                  
    31  -               \\"sha256\\": \\"0997f6                                        
-         f5cda0e3bdb77
+         f5cda0e3bdb7789a80b53621cb58820                                        
+         2ab37fd89bcd269f8dfafd23351\\"                                           
+   32                                      38                                   
+"
+`;
+
+exports[`splitWithWrapping commit with tabs 1`] = `
+"
+commit f735de7025c6d626c5a
