@@ -536,4 +536,8 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
    28  -             },                                                         
    29  -             \\"high_sierra\\": {                                           
    30  -               \\"url\\": \\"https://h                                        
-         omebrew.bintray.com/bottles/go-       
+         omebrew.bintray.com/bottles/go-                                        
+         1.14.2_1.high_sierra.bottle.tar                                        
+         .gz\\",                                                                  
+   31  -               \\"sha256\\": \\"0997f6                                        
+         f5cda0e3bdb77
