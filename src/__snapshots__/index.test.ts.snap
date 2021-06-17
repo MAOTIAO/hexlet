@@ -562,4 +562,12 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
                                            10  + -        [x] Move visual config
                                                   to theme                      
    10    -        [ ] Handle empty diffs   11    -        [ ] Handle empty diffs
-   11                                      12                    
+   11                                      12                                   
+"
+`;
+
+exports[`splitWithWrapping commits without diffs 1`] = `
+"
+commit e5f896655402f8cf2d947c528d45e1d56bbf5717 (HEAD -> main)                  
+Author: Shrey Banga <banga.shrey@gmail.com>                                     
+Date:   Sun Apr 11 16:
