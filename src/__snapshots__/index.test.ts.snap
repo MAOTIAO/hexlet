@@ -599,4 +599,8 @@ exports[`splitWithWrapping multiple inserts and deletes in the same hunk 1`] = `
 commit e5f896655402f8cf2d947c528d45e1d56bbf5717                                 
 Author: Shrey Banga <banga.shrey@gmail.com>                                     
 Date:   Sun Apr 11 16:23:54 2021 -0700                                          
-                                                         
+                                                                                
+    Small refactor to allow testing end-to-end                                  
+                                                                                
+────────────────────────────────────────────────────────────────────────────────
+ ■■ src/index.ts             
