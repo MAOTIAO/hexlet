@@ -614,4 +614,7 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
          'term-size';                            'term-size';                   
     4    import {                           5    import {                       
          iterlinesFromReadableAsync }            iterlinesFromReadableAsync }   
-      
+         from './iterLinesFromReadable';         from './iterLinesFromReadable';
+    5    import {                           6    import {                       
+         iterLinesWithoutAnsiColors }            iterLinesWithoutAnsiColors }   
+         from                                    from         
