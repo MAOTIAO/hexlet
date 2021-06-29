@@ -621,4 +621,7 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
          './iterLinesWithoutAnsiColors';         './iterLinesWithoutAnsiColors';
 @@ -12,15 +13,16 @@ function main() {                                           
    12        const screenWidth =           13        const screenWidth =        
-    
+         terminalSize().columns;                 terminalSize().columns;        
+   13        const theme =                 14        const theme =              
+         defaultTheme(chalk,                     defaultTheme(chalk,            
+         screenWidth);                           screenWidth);      
