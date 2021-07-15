@@ -661,4 +661,7 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
 @@ -7,6 +7,7 @@                                                                 
     7    -   [x] Handle file                7    -   [x] Handle file            
          addition/deletion properly              addition/deletion properly     
-    8   
+    8    -   [x] Fix incorrect line         8    -   [x] Fix incorrect line     
+         positions when a hunk has               positions when a hunk has      
+         discontinuous inserts and/or            discontinuous inserts and/or   
+         deletes                                 deletes      
