@@ -690,4 +690,7 @@ Date:   Tue May 23 16:47:17 2017 -0700
  ■■ Brewfile                                                                    
 ────────────────────────────────────────────────────────────────────────────────
 @@ -19,2 +19,3 @@ brew 'python3'                                                
-  
+   19    brew 'socat'                      19    brew 'socat'                   
+                                           20  + brew 'sonos'                   
+   20    brew 'terminal-notifier'          21    brew 'terminal-notifier'       
+@@ -42,3 +43,2 @@ cask 'rescuetime'                                  
