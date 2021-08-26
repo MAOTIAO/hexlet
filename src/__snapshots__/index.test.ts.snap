@@ -791,4 +791,12 @@ Date:   Sat Apr 10 14:35:42 2021 -0700
 ────────────────────────────────────────────────────────────────────────────────
 @@ -0,0 +1,2 @@                                                                 
                                             1  + node_modules/**                
-                                            2  + bui
+                                            2  + build/**                       
+                                            3    No newline at end of file      
+"
+`;
+
+exports[`splitWithoutWrapping commit with file deletion 1`] = `
+"
+commit 1e6ebaccc6fadf3390a749e7aa2cc6372b24325e                                 
+Author: Shrey Banga <banga.shrey@gmail.co
