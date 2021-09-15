@@ -816,4 +816,12 @@ Date:   Sun Apr 18 03:17:05 2021 -0700
     3  -         tell app \\"Terminal\\"                                            
     4  -             open \\"screenshots.s                                        
     5  -         end tell                                                       
-    6  -     end timeout            
+    6  -     end timeout                                                        
+    7  - end run                                                                
+    8    No newline at end of file                                              
+"
+`;
+
+exports[`splitWithoutWrapping commit with file move 1`] = `
+"
+commit 1c76ed4bb0542
