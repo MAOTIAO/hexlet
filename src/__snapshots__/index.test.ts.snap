@@ -827,4 +827,8 @@ exports[`splitWithoutWrapping commit with file move 1`] = `
 commit 1c76ed4bb05429741fd4a48896bb84b11bc661f5                                 
 Author: Shrey Banga <banga.shrey@gmail.com>                                     
 Date:   Sat Apr 10 22:26:15 2021 -0700                                          
-                                                                        
+                                                                                
+    Move sample diff files                                                      
+                                                                                
+────────────────────────────────────────────────────────────────────────────────
+ ■■ colors.diff -
