@@ -876,4 +876,12 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
    27  -               \\"sha256\\": \\"fa65e7   37  +               \\"sha256\\": \\"bf1e90
    28  -             },                                                         
    29  -             \\"high_sierra\\": {                                           
-   30  -               \\"url\\": \\"https://h                       
+   30  -               \\"url\\": \\"https://h                                        
+   31  -               \\"sha256\\": \\"0997f6                                        
+   32                                      38                                   
+"
+`;
+
+exports[`splitWithoutWrapping commit with tabs 1`] = `
+"
+commit f735de7025c6d626c5ae1a291fe24f143dea0313
