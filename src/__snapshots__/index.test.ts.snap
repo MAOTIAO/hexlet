@@ -919,4 +919,16 @@ commit f323143e03af95fee5d38c21238a92ffd4461847
 Author: Shrey Banga <banga.shrey@gmail.com>                                     
 Date:   Sun Apr 11 10:39:17 2021 -0700                                          
                                                                                 
-    more todos                                         
+    more todos                                                                  
+                                                                                
+"
+`;
+
+exports[`splitWithoutWrapping empty 1`] = `
+"
+"
+`;
+
+exports[`splitWithoutWrapping multiple inserts and deletes in the same hunk 1`] = `
+"
+commit e5f896655402f8cf2d947c528d45e1d56bbf5717            
