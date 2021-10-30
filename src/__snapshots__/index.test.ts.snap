@@ -950,4 +950,7 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
 @@ -12,15 +13,16 @@ function main() {                                           
    12        const screenWidth = termina   13        const screenWidth = termina
    13        const theme = defaultTheme(   14        const theme = defaultTheme(
-   14                   
+   14                                      15                                   
+   15  -     transformStreamWithIterable   16  +     stream.pipeline(           
+   16  -         process.stdin,            17  +         transformStreamWithIter
+   17  -         [                         18  +       
