@@ -953,4 +953,8 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
    14                                      15                                   
    15  -     transformStreamWithIterable   16  +     stream.pipeline(           
    16  -         process.stdin,            17  +         transformStreamWithIter
-   17  -         [                         18  +       
+   17  -         [                         18  +             process.stdin,     
+   18                iterlinesFromReadab   19                iterlinesFromReadab
+   19                iterLinesWithoutAns   20                iterLinesWithoutAns
+   20                iterSideBySideDiff(   21                iterSideBySideDiff(
+   21  -             iterWithNewlines,     2
