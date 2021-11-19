@@ -985,4 +985,12 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
                                            10  + -   [x] Move visual config to t
    10    -   [ ] Handle empty diffs        11    -   [ ] Handle empty diffs     
    11    -   [ ] Handle moves and rename   12    -   [ ] Handle moves and rename
-   12    -   [ ] Highlight changes in li   13    -   [ ] Highli
+   12    -   [ ] Highlight changes in li   13    -   [ ] Highlight changes in li
+   13                                      14                                   
+   14                                      15                                   
+"
+`;
+
+exports[`syntaxHighlighted commit with a small diff 1`] = `
+"
+commit 26ca49fb83758bace20a473e2
