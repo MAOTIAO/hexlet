@@ -1013,4 +1013,8 @@ Date:   Tue May 23 16:47:17 2017 -0700
 "
 `;
 
-exports[`syntaxHighlighted commit wi
+exports[`syntaxHighlighted commit with a small diff without a/ and b/ prefixs 1`] = `
+"
+commit 26ca49fb83758bace20a473e231d576aa1bbe115                                 
+Author: Shrey Banga <shrey@quip.com>                                            
+Date:   Tue May 23 16:47:17 2017 -0700                   
