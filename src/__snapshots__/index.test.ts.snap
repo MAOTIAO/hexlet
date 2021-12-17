@@ -1124,4 +1124,7 @@ Date:   Sun Apr 18 03:17:05 2021 -0700
  ■■ scripts/screenshotTheme                                                     
 ────────────────────────────────────────────────────────────────────────────────
 @@ -1,7 +0,0 @@                                                                 
-    1  - on run argv                         
+    1  - on run argv                                                            
+    2  -     with timeout of 5 seconds                                          
+    3  -         tell app \\"Terminal\\"                                            
+    4  -             open \\"screenshots.s                        
