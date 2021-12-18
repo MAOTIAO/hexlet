@@ -1143,4 +1143,10 @@ Date:   Sat Apr 10 22:26:15 2021 -0700
                                                                                 
     Move sample diff files                                                      
                                                                                 
-─────────
+────────────────────────────────────────────────────────────────────────────────
+ ■■ colors.diff -> test-data/colors.diff                                        
+────────────────────────────────────────────────────────────────────────────────
+"
+`;
+
+exports[`syntaxHighlighted commit with inline line cha
