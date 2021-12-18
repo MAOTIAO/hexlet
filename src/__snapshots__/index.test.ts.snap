@@ -1131,4 +1131,12 @@ Date:   Sun Apr 18 03:17:05 2021 -0700
     5  -         end tell                                                       
     6  -     end timeout                                                        
     7  - end run                                                                
-    8    No newline at end of file   
+    8    No newline at end of file                                              
+"
+`;
+
+exports[`syntaxHighlighted commit with file move 1`] = `
+"
+commit 1c76ed4bb05429741fd4a48896bb84b11bc661f5                                 
+Author: Shrey Banga <banga.shrey@gmail.com>                                     
+Date:   Sat Apr 10 22:26:
