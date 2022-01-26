@@ -1210,4 +1210,11 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
     9    ░░░░░░░░░░░░░░░░░░░░░░░░░░         9    ░░░░░░░░░░░░░░░░░░░░░░░░░░     
                                            10  + ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    10    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   11    ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-   11                       
+   11                                      12                                   
+"
+`;
+
+exports[`syntaxHighlighted commits without diffs 1`] = `
+"
+commit e5f896655402f8cf2d947c528d45e1d56bbf5717 (HEAD -> main)                  
+Author: Shrey Banga <banga.shrey@gmail.com>                                 
