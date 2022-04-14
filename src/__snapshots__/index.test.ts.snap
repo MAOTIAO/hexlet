@@ -1304,4 +1304,8 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
 "
 `;
 
-exports[`unifiedWith
+exports[`unifiedWithInlineChangesHighlighted commit with a small diff 1`] = `
+"
+commit 26ca49fb83758bace20a473e231d576aa1bbe115                                 
+Author: Shrey Banga <shrey@quip.com>                                            
+Date:   Tue May 23 16:47:17 2017 -0700         
