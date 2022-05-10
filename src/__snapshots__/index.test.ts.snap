@@ -1330,4 +1330,8 @@ exports[`unifiedWithInlineChangesHighlighted commit with a small diff without a/
 "
 commit 26ca49fb83758bace20a473e231d576aa1bbe115                                 
 Author: Shrey Banga <shrey@quip.com>                                            
-Date:   Tue May 23 16:47:17 2017 -0700          
+Date:   Tue May 23 16:47:17 2017 -0700                                          
+                                                                                
+    sonos to brew                                                               
+                                                                                
+────────
