@@ -1379,4 +1379,12 @@ Date:   Wed Apr 14 18:24:29 2021 -0700
  ■■ screenshots/default.png                                                     
 ────────────────────────────────────────────────────────────────────────────────
 ────────────────────────────────────────────────────────────────────────────────
- ■■ test dir a/default.png                                                    
+ ■■ test dir a/default.png                                                      
+────────────────────────────────────────────────────────────────────────────────
+"
+`;
+
+exports[`unifiedWithInlineChangesHighlighted commit with deletion 1`] = `
+"commit eccfb5a2b3d76ba53df315f977da74b18d50113e
+Author: Shrey Banga <shrey@quip.com>
+Date:   Thu Aug 22 10:07
