@@ -1400,4 +1400,12 @@ index a33d267..ae58a01 100644
    \\"search.location\\": \\"panel\\",
 -  \\"search.usePCRE2\\": true,
 
-  
+   // telemetry
+"
+`;
+
+exports[`unifiedWithInlineChangesHighlighted commit with file addition 1`] = `
+"
+commit e4951eee3b9a8fa471d01dd64075c5fd44879a26                                 
+Author: Shrey Banga <banga.shrey@gmail.com>                                     
+Date:   Sat Apr 10 14:35:4
