@@ -1492,4 +1492,7 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
    27  -               \\"sha256\\": \\"░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
    28  -             },                                                         
    29  -             \\"high_sierra\\": {                                           
-   30  -               \\"url\\": \\"https://homebrew.bin
+   30  -               \\"url\\": \\"https://homebrew.bintray.com/bottles/go-1.14.2_1.
+   31  -               \\"sha256\\": \\"0997f6f5cda0e3bdb7789a80b53621cb588202ab37fd89
+   36  +               \\"url\\": \\"https://homebrew.bintray.com/bottles/go-1.16.3.mo
+   37  +               \\"sha256\\": \\"bf1e90ed1680b8ee1acb49f2f9942
