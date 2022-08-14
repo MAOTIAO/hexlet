@@ -1522,4 +1522,8 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
 exports[`unifiedWithInlineChangesHighlighted commits without diffs 1`] = `
 "
 commit e5f896655402f8cf2d947c528d45e1d56bbf5717 (HEAD -> main)                  
-Author: Shrey Banga <banga.shrey@gmail.com>         
+Author: Shrey Banga <banga.shrey@gmail.com>                                     
+Date:   Sun Apr 11 16:23:54 2021 -0700                                          
+                                                                                
+    Small refactor to allow testing end-to-end                                  
+                  
