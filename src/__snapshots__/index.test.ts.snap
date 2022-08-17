@@ -1537,4 +1537,14 @@ commit f323143e03af95fee5d38c21238a92ffd4461847
 Author: Shrey Banga <banga.shrey@gmail.com>                                     
 Date:   Sun Apr 11 10:39:17 2021 -0700                                          
                                                                                 
-    more todos  
+    more todos                                                                  
+                                                                                
+"
+`;
+
+exports[`unifiedWithInlineChangesHighlighted empty 1`] = `
+"
+"
+`;
+
+exports[`unifiedWithInlineChangesHighlighted multiple inserts and d
