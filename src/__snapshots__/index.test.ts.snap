@@ -1562,4 +1562,7 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
     1    import chalk from 'chalk';                                             
     2    import * as process from 'process';                                    
     3  + import stream from 'stream';                                           
-    3    import
+    3    import terminalSize from 'term-size';                                  
+    4    import { iterlinesFromReadableAsync } from './iterLinesFromReadable';  
+    5    import { iterLinesWithoutAnsiColors } from './iterLinesWithoutAnsiColor
+@@ -12,15 +13,16 @@ function main() {              
