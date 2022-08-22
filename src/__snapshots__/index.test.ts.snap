@@ -1569,4 +1569,7 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
    12        const screenWidth = terminalSize().columns;                        
    13        const theme = defaultTheme(chalk, screenWidth);                    
    14                                                                           
-   15 
+   15  -     transformStreamWithIterables(                                      
+   16  -         process.stdin,                                                 
+   17  -         [                                                              
+   16  +     stream.pipeline(                     
