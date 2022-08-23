@@ -1576,4 +1576,7 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
    17  +         transformStreamWithIterables(                                  
    18  +             process.stdin,                                             
    18                iterlinesFromReadableAsync,                                
-   19              
+   19                iterLinesWithoutAnsiColors,                                
+   20                iterSideBySideDiff(theme),                                 
+   21  -             iterWithNewlines░                                          
+   22  -         ░,                
