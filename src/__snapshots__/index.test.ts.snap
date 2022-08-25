@@ -1586,4 +1586,11 @@ Date:   Sun Apr 11 16:23:54 2021 -0700
    24  +         process.stdout,                                                
    25  +         console.error                                                  
    24        );                                                                 
-   25    }                          
+   25    }                                                                      
+   26                                                                           
+"
+`;
+
+exports[`unifiedWithInlineChangesHighlighted with ANSI color codes 1`] = `
+"
+commit f735de7025c6d626c5ae1a291fe24f143dea0313                        
