@@ -1604,4 +1604,8 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
 ────────────────────────────────────────────────────────────────────────────────
 @@ -7,6 +7,7 @@                                                                 
     7    -   [x] Handle file addition/deletion properly                         
-    8    -   [
+    8    -   [x] Fix incorrect line positions when a hunk has discontinuous inse
+    9    -   [x] Organize code                                                  
+   10  + -   [x] Move visual config to theme                                    
+   10    -   [ ] Handle empty diffs                                             
+   11    -   [ ] Handle 
