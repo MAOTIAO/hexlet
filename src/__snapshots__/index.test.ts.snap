@@ -1655,4 +1655,12 @@ Date:   Tue May 23 16:47:17 2017 -0700
 @@ -42,3 +43,2 @@ cask 'rescuetime'                                             
    42    cask 'slate'                                                           
    43  - cask 'sonos'                                                           
-   44    cask 'spotify'                                                      
+   44    cask 'spotify'                                                         
+"
+`;
+
+exports[`unifiedWithWrapping commit with addition 1`] = `
+"
+commit f735de7025c6d626c5ae1a291fe24f143dea0313                                 
+Author: Shrey Banga <banga.shrey@gmail.com>                                     
+Date:   Sun Apr 11 15:25:34 2021 -0700                                          
