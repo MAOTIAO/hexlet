@@ -1674,4 +1674,12 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
     9    -   [x] Organize code                                                  
    10  + -   [x] Move visual config to theme                                    
    10    -   [ ] Handle empty diffs                                             
-   11                                          
+   11                                                                           
+"
+`;
+
+exports[`unifiedWithWrapping commit with binary file addition 1`] = `
+"
+commit c0ca4394fd55f1709430414f03db3d04cb9cc72c (HEAD -> main)                  
+Author: Shrey Banga <banga.shrey@gmail.com>                                     
+Date:   Wed Apr 14
