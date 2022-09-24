@@ -1777,4 +1777,7 @@ exports[`unifiedWithWrapping commit with inline line changes 1`] = `
 "
 commit 9e424d329800e945e3003c9e275f80bdef69e591                                 
 Author: Shrey Banga <banga.shrey@gmail.com>                                     
-Date:   Su
+Date:   Sun Apr 4 19:04:26 2021 -0700                                           
+                                                                                
+    update lockfile                                                             
+                                                                       
