@@ -1807,4 +1807,8 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
          \\"fa65e7dabe514e65ae625ed3c84a6bf58df01aceffc6e9aa99752ca8c320ce69\\"     
    28  -             },                                                         
    29  -             \\"high_sierra\\": {                                           
-   30  -               \\"url\\": \\"https://homebrew.bintray.com/bottles/go-1.
+   30  -               \\"url\\": \\"https://homebrew.bintray.com/bottles/go-1.14.2_1.
+         high_sierra.bottle.tar.gz\\",                                            
+   31  -               \\"sha256\\":                                                
+         \\"0997f6f5cda0e3bdb7789a80b53621cb588202ab37fd89bcd269f8dfafd23351\\"     
+   36  +              
