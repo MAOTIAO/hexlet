@@ -1804,4 +1804,7 @@ Date:   Sun Apr 4 19:04:26 2021 -0700
    26  -               \\"url\\": \\"https://homebrew.bintray.com/bottles/go-1.14.2_1.
          mojave.bottle.tar.gz\\",                                                 
    27  -               \\"sha256\\":                                                
-         \\"fa65e7dabe514e65ae625ed3c84a6bf58df01ace
+         \\"fa65e7dabe514e65ae625ed3c84a6bf58df01aceffc6e9aa99752ca8c320ce69\\"     
+   28  -             },                                                         
+   29  -             \\"high_sierra\\": {                                           
+   30  -               \\"url\\": \\"https://homebrew.bintray.com/bottles/go-1.
