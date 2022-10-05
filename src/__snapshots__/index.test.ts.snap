@@ -1832,4 +1832,12 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
 ────────────────────────────────────────────────────────────────────────────────
 @@ -9,2 +9,3 @@                                                                 
     9    -        [x] Organize code                                             
-   10  + -        [x] Move visual config to theme    
+   10  + -        [x] Move visual config to theme                               
+   10    -        [ ] Handle empty diffs                                        
+   11                                                                           
+"
+`;
+
+exports[`unifiedWithWrapping commits without diffs 1`] = `
+"
+commit e5f896655402f8cf2d947c528d45e1d
