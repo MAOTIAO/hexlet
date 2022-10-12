@@ -1873,4 +1873,7 @@ Author: Shrey Banga <banga.shrey@gmail.com>
 Date:   Sun Apr 11 16:23:54 2021 -0700                                          
                                                                                 
     Small refactor to allow testing end-to-end                                  
-            
+                                                                                
+────────────────────────────────────────────────────────────────────────────────
+ ■■ src/index.ts                                                                
+───────────────────────────────────────────────────────────────────
