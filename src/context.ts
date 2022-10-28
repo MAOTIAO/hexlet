@@ -8,4 +8,12 @@ import { FormattedString, T } from './formattedString';
  */
 export type Context = Config & {
     SPLIT_DIFFS: boolean;
-    LINE_W
+    LINE_WIDTH: number;
+    BLANK_LINE: string;
+    HORIZONTAL_SEPARATOR: FormattedString;
+    HIGHLIGHTER?: shiki.Highlighter;
+};
+
+export async function getContextForConfig(config: Config): Promise<Context> {
+    // Only split diffs if there's enough room
+    const SPLIT_DIFFS = config.SCREEN_WIDTH >= co
