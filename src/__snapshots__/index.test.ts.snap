@@ -1932,4 +1932,6 @@ Date:   Sun Apr 11 15:25:34 2021 -0700
    11    -   [ ] Handle moves and renames without diffs                         
    12    -   [ ] Highlight changes in lines                                     
    13                                                                           
-   14                                                         
+   14                                                                           
+"
+`;
