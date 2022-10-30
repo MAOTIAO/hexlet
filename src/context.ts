@@ -16,4 +16,14 @@ export type Context = Config & {
 
 export async function getContextForConfig(config: Config): Promise<Context> {
     // Only split diffs if there's enough room
-    const SPLIT_DIFFS = config.SCREEN_WIDTH >= co
+    const SPLIT_DIFFS = config.SCREEN_WIDTH >= config.MIN_LINE_WIDTH * 2;
+
+    let LINE_WIDTH: number;
+    if (SPLIT_DIFFS) {
+        LINE_WIDTH = Math.floor(config.SCREEN_WIDTH / 2);
+    } else {
+        LINE_WIDTH = config.SCREEN_WIDTH;
+    }
+
+    const BLANK_LINE = ''.padStart(LINE_WIDTH);
+    const HORIZON
