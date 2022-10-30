@@ -26,4 +26,11 @@ export async function getContextForConfig(config: Config): Promise<Context> {
     }
 
     const BLANK_LINE = ''.padStart(LINE_WIDTH);
-    const HORIZON
+    const HORIZONTAL_SEPARATOR = T()
+        .padEnd(config.SCREEN_WIDTH, '─')
+        .addSpan(0, config.SCREEN_WIDTH, config.BORDER_COLOR);
+
+    let HIGHLIGHTER = undefined;
+    if (config.SYNTAX_HIGHLIGHTING_THEME) {
+        HIGHLIGHTER = await shiki.getHighlighter({
+            theme: co
