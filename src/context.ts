@@ -44,4 +44,7 @@ export async function getContextForConfig(config: Config): Promise<Context> {
         SPLIT_DIFFS,
         LINE_WIDTH,
         BLANK_LINE,
-        HORIZONT
+        HORIZONTAL_SEPARATOR,
+        HIGHLIGHTER,
+    };
+}
