@@ -23,4 +23,11 @@ export function* formatAndFitHunkLine(
         DELETED_LINE_COLOR,
         DELETED_LINE_NO_COLOR,
         INSERTED_LINE_COLOR,
-       
+        INSERTED_LINE_NO_COLOR,
+        UNMODIFIED_LINE_COLOR,
+        UNMODIFIED_LINE_NO_COLOR,
+    } = context;
+
+    // A line number of 0 happens when we read the "No newline at end of file"
+    // message as a line at the end of a deleted/inserted file.
+    if (line === null 
