@@ -49,4 +49,15 @@ export function* formatAndFitHunkLine(
             lineColor = INSERTED_LINE_COLOR;
             lineNoColor = INSERTED_LINE_NO_COLOR;
             break;
-        d
+        default:
+            lineColor = UNMODIFIED_LINE_COLOR;
+            lineNoColor = UNMODIFIED_LINE_NO_COLOR;
+            break;
+    }
+
+    /*
+        Each line is rendered as follows: 
+        <lineNo>  <linePrefix> <lineText>
+
+        So (LINE_NUMBER_WIDTH + 2 + 1 + 1 + lineTextWidth) * 2 = LINE_WIDTH
+ 
