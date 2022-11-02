@@ -40,4 +40,13 @@ export function* formatAndFitHunkLine(
 
     let lineColor: ThemeColor;
     let lineNoColor: ThemeColor;
-   
+    switch (linePrefix) {
+        case '-':
+            lineColor = DELETED_LINE_COLOR;
+            lineNoColor = DELETED_LINE_NO_COLOR;
+            break;
+        case '+':
+            lineColor = INSERTED_LINE_COLOR;
+            lineNoColor = INSERTED_LINE_NO_COLOR;
+            break;
+        d
