@@ -30,4 +30,14 @@ export function* formatAndFitHunkLine(
 
     // A line number of 0 happens when we read the "No newline at end of file"
     // message as a line at the end of a deleted/inserted file.
-    if (line === null 
+    if (line === null || lineNo === 0) {
+        yield T().appendString(BLANK_LINE, MISSING_LINE_COLOR);
+        return;
+    }
+
+    const linePrefix = line?.slice(0, 1) ?? null;
+    const lineText = line?.slice(1) ?? null;
+
+    let lineColor: ThemeColor;
+    let lineNoColor: ThemeColor;
+   
