@@ -60,4 +60,10 @@ export function* formatAndFitHunkLine(
         <lineNo>  <linePrefix> <lineText>
 
         So (LINE_NUMBER_WIDTH + 2 + 1 + 1 + lineTextWidth) * 2 = LINE_WIDTH
- 
+    */
+    const lineTextWidth = LINE_WIDTH - 2 - 1 - 1 - LINE_NUMBER_WIDTH;
+
+    let isFirstLine = true;
+    const formattedLine = T().appendString(lineText);
+    highlightChangesInLine(context, linePrefix, formattedLine, changes);
+    highlightSyntaxInLine(formattedLine, fileNam
