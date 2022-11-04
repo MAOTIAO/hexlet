@@ -66,4 +66,14 @@ export function* formatAndFitHunkLine(
     let isFirstLine = true;
     const formattedLine = T().appendString(lineText);
     highlightChangesInLine(context, linePrefix, formattedLine, changes);
-    highlightSyntaxInLine(formattedLine, fileNam
+    highlightSyntaxInLine(formattedLine, fileName, context.HIGHLIGHTER);
+
+    for (const fittedLine of iterFitTextToWidth(
+        context,
+        formattedLine,
+        lineTextWidth
+    )) {
+        const lineNoText =
+            (isFirstLine ? lineNo.toString() : '').padStart(LINE_NUMBER_WIDTH) +
+            ' ';
+        const wrappedLinePre
