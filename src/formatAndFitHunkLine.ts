@@ -83,4 +83,7 @@ export function* formatAndFitHunkLine(
             .appendString(lineNoText, lineNoColor)
             .appendString(wrappedLinePrefix)
             .appendSpannedString(fittedLine)
-            .addSpan(0, LINE_WIDTH, lineColor
+            .addSpan(0, LINE_WIDTH, lineColor);
+        isFirstLine = false;
+    }
+}
