@@ -76,4 +76,11 @@ export function* formatAndFitHunkLine(
         const lineNoText =
             (isFirstLine ? lineNo.toString() : '').padStart(LINE_NUMBER_WIDTH) +
             ' ';
-        const wrappedLinePre
+        const wrappedLinePrefix = (isFirstLine ? linePrefix : '')
+            .padStart(2)
+            .padEnd(3);
+        yield T()
+            .appendString(lineNoText, lineNoColor)
+            .appendString(wrappedLinePrefix)
+            .appendSpannedString(fittedLine)
+            .addSpan(0, LINE_WIDTH, lineColor
