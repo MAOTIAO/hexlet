@@ -15,4 +15,12 @@ export function applyFormatting(
     const { CHALK, DEFAULT_COLOR } = context;
 
     let formattedString = '';
-    for (const [substring, colors] of string.iterSubstrings()
+    for (const [substring, colors] of string.iterSubstrings()) {
+        let formattedSubstring = substring;
+        const themeColor = reduceThemeColors([...colors, DEFAULT_COLOR]);
+
+        const { color, backgroundColor, modifiers } = themeColor;
+        if (color) {
+            formattedSubstring = CHALK.rgb(
+                Math.floor(color.r),
+                Ma
