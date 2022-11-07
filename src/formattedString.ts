@@ -31,4 +31,13 @@ export function applyFormatting(
             formattedSubstring = CHALK.bgRgb(
                 Math.floor(backgroundColor.r),
                 Math.floor(backgroundColor.g),
-                Math.fl
+                Math.floor(backgroundColor.b)
+            )(formattedSubstring);
+        }
+        if (modifiers) {
+            for (const modifier of modifiers) {
+                formattedSubstring = CHALK[modifier](formattedSubstring);
+            }
+        }
+        formattedString += formattedSubstring;
+    }
