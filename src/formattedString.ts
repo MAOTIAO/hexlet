@@ -23,4 +23,12 @@ export function applyFormatting(
         if (color) {
             formattedSubstring = CHALK.rgb(
                 Math.floor(color.r),
-                Ma
+                Math.floor(color.g),
+                Math.floor(color.b)
+            )(formattedSubstring);
+        }
+        if (backgroundColor) {
+            formattedSubstring = CHALK.bgRgb(
+                Math.floor(backgroundColor.r),
+                Math.floor(backgroundColor.g),
+                Math.fl
