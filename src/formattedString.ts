@@ -41,3 +41,5 @@ export function applyFormatting(
         }
         formattedString += formattedSubstring;
     }
+    return formattedString;
+}
