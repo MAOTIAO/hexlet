@@ -26,4 +26,14 @@ async function getRawGitConfig() {
 }
 
 // TODO: Make this less manual
-export a
+export async function getGitConfig(
+    screenWidth: number,
+    chalk: Chalk
+): Promise<Config> {
+    const rawConfig = await getRawGitConfig();
+
+    // Defaults to "dark"
+    const themeName = rawConfig['theme-name'] ?? 'dark';
+    const theme = loadTheme(themeName);
+
+    // Defaults to the theme'
