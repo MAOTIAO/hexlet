@@ -36,4 +36,13 @@ export async function getGitConfig(
     const themeName = rawConfig['theme-name'] ?? 'dark';
     const theme = loadTheme(themeName);
 
-    // Defaults to the theme'
+    // Defaults to the theme's setting
+    const syntaxHighlightingTheme =
+        rawConfig['syntax-highlighting-theme'] ??
+        theme.SYNTAX_HIGHLIGHTING_THEME;
+
+    // Defaults to true
+    const wrapLines = rawConfig['wrap-lines'] === 'false' ? false : true;
+
+    // Defaults to true
+    const highlightLineChange
