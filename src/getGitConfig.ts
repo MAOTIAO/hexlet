@@ -53,4 +53,15 @@ export async function getGitConfig(
     try {
         const parsedMinLineWidth = parseInt(rawConfig['min-line-width'], 10);
         if (!isNaN(parsedMinLineWidth)) {
-            minLineWidth = parsedMinLi
+            minLineWidth = parsedMinLineWidth;
+        }
+    } catch {}
+
+    return {
+        ...theme,
+        CHALK: chalk,
+        SCREEN_WIDTH: screenWidth,
+        MIN_LINE_WIDTH: minLineWidth,
+        WRAP_LINES: wrapLines,
+        HIGHLIGHT_LINE_CHANGES: highlightLineChanges,
+        SYNTAX_HIGHLIGHTING_THEME: s
