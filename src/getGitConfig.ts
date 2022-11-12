@@ -64,4 +64,6 @@ export async function getGitConfig(
         MIN_LINE_WIDTH: minLineWidth,
         WRAP_LINES: wrapLines,
         HIGHLIGHT_LINE_CHANGES: highlightLineChanges,
-        SYNTAX_HIGHLIGHTING_THEME: s
+        SYNTAX_HIGHLIGHTING_THEME: syntaxHighlightingTheme,
+    };
+}
