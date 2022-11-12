@@ -45,4 +45,12 @@ export async function getGitConfig(
     const wrapLines = rawConfig['wrap-lines'] === 'false' ? false : true;
 
     // Defaults to true
-    const highlightLineChange
+    const highlightLineChanges =
+        rawConfig['highlight-line-changes'] === 'false' ? false : true;
+
+    // Defaults to 80
+    let minLineWidth = 80;
+    try {
+        const parsedMinLineWidth = parseInt(rawConfig['min-line-width'], 10);
+        if (!isNaN(parsedMinLineWidth)) {
+            minLineWidth = parsedMinLi
