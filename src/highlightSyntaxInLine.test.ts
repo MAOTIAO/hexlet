@@ -9,4 +9,14 @@ test.skip('highlighting should load languages on-demand', async () => {
     const testString = T().appendString(string);
 
     {
-        const referenceHighlig
+        const referenceHighlighter = await shiki.getHighlighter({
+            theme: 'nord',
+        });
+        highlightSyntaxInLine(referenceString, 'test.md', referenceHighlighter);
+    }
+
+    {
+        const highlighter2 = await shiki.getHighlighter({
+            theme: 'nord',
+            langs: [],
+    
