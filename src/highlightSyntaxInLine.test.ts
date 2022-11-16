@@ -19,4 +19,11 @@ test.skip('highlighting should load languages on-demand', async () => {
         const highlighter2 = await shiki.getHighlighter({
             theme: 'nord',
             langs: [],
-    
+        });
+        highlightSyntaxInLine(testString, 'test.md', highlighter2);
+    }
+
+    expect([...testString.iterSubstrings()]).toEqual([
+        ...referenceString.iterSubstrings(),
+    ]);
+});
