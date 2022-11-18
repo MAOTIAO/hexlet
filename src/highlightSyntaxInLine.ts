@@ -9,4 +9,17 @@ export function highlightSyntaxInLine(
     fileName: string,
     highlighter?: shiki.Highlighter
 ): void {
-    if (!highligh
+    if (!highlighter) {
+        return;
+    }
+    const language = path.extname(fileName).slice(1);
+
+    let tokens: shiki.IThemedToken[];
+    try {
+        [tokens] = highlighter.codeToThemedTokens(
+            line.getString(),
+            language,
+            undefined,
+            { includeExplanation: false }
+        );
+    } catch (e)
