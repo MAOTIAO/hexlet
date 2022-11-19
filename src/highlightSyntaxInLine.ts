@@ -22,4 +22,15 @@ export function highlightSyntaxInLine(
             undefined,
             { includeExplanation: false }
         );
-    } catch (e)
+    } catch (e) {
+        // Highlighting fails if a language grammar or theme is missing
+        return;
+    }
+
+    let index = 0;
+    for (const { content, color } of tokens) {
+        if (color) {
+            const syntaxColor = parseColorDefinition({
+                color: color,
+            });
+            line.addSpan(index
