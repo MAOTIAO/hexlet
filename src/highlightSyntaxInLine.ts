@@ -33,4 +33,8 @@ export function highlightSyntaxInLine(
             const syntaxColor = parseColorDefinition({
                 color: color,
             });
-            line.addSpan(index
+            line.addSpan(index, index + content.length, syntaxColor);
+            index += content.length;
+        }
+    }
+}
