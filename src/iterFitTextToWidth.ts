@@ -5,4 +5,15 @@ import { wrapSpannedStringByWord } from './wrapSpannedStringByWord';
 
 /**
  * Wraps or truncates the given line to into the allowed width, depending on
- * the con
+ * the config.
+ */
+export function* iterFitTextToWidth(
+    context: Context,
+    formattedString: FormattedString,
+    width: number,
+    backgroundColor?: ThemeColor
+): Iterable<FormattedString> {
+    if (context.WRAP_LINES) {
+        for (const wrappedLine of wrapSpannedStringByWord(
+            formattedString,
+  
