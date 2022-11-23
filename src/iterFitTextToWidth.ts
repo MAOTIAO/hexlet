@@ -16,4 +16,13 @@ export function* iterFitTextToWidth(
     if (context.WRAP_LINES) {
         for (const wrappedLine of wrapSpannedStringByWord(
             formattedString,
-  
+            width
+        )) {
+            wrappedLine.padEnd(width);
+            if (backgroundColor) {
+                wrappedLine.addSpan(0, width, backgroundColor);
+            }
+            yield wrappedLine;
+        }
+    } else {
+        const truncatedLine = formattedString.slice(
