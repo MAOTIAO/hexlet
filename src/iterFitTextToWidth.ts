@@ -25,4 +25,10 @@ export function* iterFitTextToWidth(
             yield wrappedLine;
         }
     } else {
-        const truncatedLine = formattedString.slice(
+        const truncatedLine = formattedString.slice(0, width).padEnd(width);
+        if (backgroundColor) {
+            truncatedLine.addSpan(0, width, backgroundColor);
+        }
+        yield truncatedLine;
+    }
+}
