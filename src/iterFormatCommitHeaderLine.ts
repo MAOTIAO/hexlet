@@ -32,4 +32,15 @@ export function* iterFormatCommitHeaderLine(
 
     const formattedLine = T()
         .appendString(line)
-        .addSpan(0, label.length
+        .addSpan(0, label.length, COMMIT_HEADER_LABEL_COLOR);
+    if (labelColor) {
+        formattedLine.addSpan(0, SCREEN_WIDTH - label.length - 1, labelColor);
+    }
+
+    yield* iterFitTextToWidth(
+        context,
+        formattedLine,
+        SCREEN_WIDTH,
+        COMMIT_HEADER_COLOR
+    );
+}
