@@ -20,4 +20,16 @@ export function* iterFormatCommitHeaderLine(
     let labelColor;
     switch (label) {
         case 'commit':
-            labelColor = COMMIT_S
+            labelColor = COMMIT_SHA_COLOR;
+            break;
+        case 'Author:':
+            labelColor = COMMIT_AUTHOR_COLOR;
+            break;
+        case 'Date:':
+            labelColor = COMMIT_DATE_COLOR;
+            break;
+    }
+
+    const formattedLine = T()
+        .appendString(line)
+        .addSpan(0, label.length
