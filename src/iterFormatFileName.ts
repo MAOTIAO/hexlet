@@ -28,4 +28,10 @@ export function* iterFormatFileName(
         fileNameLabel = fileNameB;
     } else if (!fileNameB) {
         formattedString
-            .addSpan(1, 
+            .addSpan(1, 3, DELETED_LINE_NO_COLOR)
+            .addSpan(1, 3, DELETED_LINE_COLOR);
+        fileNameLabel = fileNameA;
+    } else if (fileNameA === fileNameB) {
+        formattedString
+            .addSpan(1, 2, DELETED_LINE_NO_COLOR)
+            .addSpan(2, 3, INSERTED_LINE_NO_C
