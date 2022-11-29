@@ -20,4 +20,12 @@ export function* iterFormatFileName(
     yield HORIZONTAL_SEPARATOR;
 
     const formattedString = T().appendString(' ■■ ');
-    let fileNameL
+    let fileNameLabel;
+    if (!fileNameA) {
+        formattedString
+            .addSpan(1, 3, INSERTED_LINE_NO_COLOR)
+            .addSpan(1, 3, INSERTED_LINE_COLOR);
+        fileNameLabel = fileNameB;
+    } else if (!fileNameB) {
+        formattedString
+            .addSpan(1, 
