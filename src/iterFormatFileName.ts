@@ -34,4 +34,12 @@ export function* iterFormatFileName(
     } else if (fileNameA === fileNameB) {
         formattedString
             .addSpan(1, 2, DELETED_LINE_NO_COLOR)
-            .addSpan(2, 3, INSERTED_LINE_NO_C
+            .addSpan(2, 3, INSERTED_LINE_NO_COLOR)
+            .addSpan(1, 2, DELETED_LINE_COLOR)
+            .addSpan(2, 3, INSERTED_LINE_COLOR);
+        fileNameLabel = fileNameA;
+    } else {
+        formattedString
+            .addSpan(1, 2, DELETED_LINE_NO_COLOR)
+            .addSpan(2, 3, INSERTED_LINE_NO_COLOR)
+     
