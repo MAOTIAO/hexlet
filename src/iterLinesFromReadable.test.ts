@@ -45,3 +45,22 @@ test('mixed', async () => {
 test('fuzz', async () => {
     const chunks = [];
     const lines = [];
+    let currentLine = '';
+    for (let i = 0; i < 5; i++) {
+        let chunk = '';
+        for (let j = 0; j < 5; j++) {
+            const character = Math.random() < 0.25 ? '\n' : i.toString();
+            if (character === '\n') {
+                lines.push(currentLine);
+                currentLine = '';
+            } else {
+                currentLine += character;
+            }
+            chunk += character;
+        }
+        chunks.push(chunk);
+    }
+    lines.push(currentLine);
+
+    expect(await toLines(chunks)).toEqual(lines);
+});
