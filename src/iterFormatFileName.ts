@@ -50,4 +50,10 @@ export function* iterFormatFileName(
 
     yield* iterFitTextToWidth(
         context,
-        formattedString
+        formattedString,
+        SCREEN_WIDTH,
+        FILE_NAME_COLOR
+    );
+
+    yield HORIZONTAL_SEPARATOR;
+}
