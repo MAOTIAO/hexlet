@@ -42,4 +42,12 @@ export function* iterFormatFileName(
         formattedString
             .addSpan(1, 2, DELETED_LINE_NO_COLOR)
             .addSpan(2, 3, INSERTED_LINE_NO_COLOR)
-     
+            .addSpan(1, 2, DELETED_LINE_COLOR)
+            .addSpan(2, 3, INSERTED_LINE_COLOR);
+        fileNameLabel = `${fileNameA} -> ${fileNameB}`;
+    }
+    formattedString.appendString(fileNameLabel);
+
+    yield* iterFitTextToWidth(
+        context,
+        formattedString
