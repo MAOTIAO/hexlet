@@ -8,3 +8,13 @@ const NEWLINE_REGEX = /\r\n|\n/g;
  */
 function* yieldLinesFromString(string: string) {
     let lastIndex = 0;
+    let match: RegExpExecArray | null;
+    while ((match = NEWLINE_REGEX.exec(string))) {
+        yield string.slice(lastIndex, match.index);
+        lastIndex = match.index + match[0].length;
+    }
+    return string.slice(lastIndex);
+}
+
+/**
+ * Converts a readable strea
