@@ -17,4 +17,13 @@ function* yieldLinesFromString(string: string) {
 }
 
 /**
- * Converts a readable strea
+ * Converts a readable stream to an iterator that yields the stream's contents
+ * line-by-line.
+ */
+export async function* iterlinesFromReadable(
+    readable: stream.Readable
+): AsyncIterable<string> {
+    let string: string = '';
+    for await (const chunk of readable) {
+        string += (chunk as Buffer).toString();
+   
