@@ -26,4 +26,7 @@ export async function* iterlinesFromReadable(
     let string: string = '';
     for await (const chunk of readable) {
         string += (chunk as Buffer).toString();
-   
+        string = yield* yieldLinesFromString(string);
+    }
+    yield string;
+}
