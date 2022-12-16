@@ -18,4 +18,16 @@ async function previewTheme(themeName: string, content: string) {
     const theme = loadTheme(themeName);
 
     const { rows, columns } = terminalSize();
-    const conf
+    const config: Config = {
+        ...CONFIG,
+        ...theme,
+        SCREEN_WIDTH: columns,
+    };
+
+    const context = await getContextForConfig(config);
+
+    let linesWritten = 0;
+    await transformContentsStreaming(
+        context,
+        Readable.from(content),
+        new (class extends Wr
