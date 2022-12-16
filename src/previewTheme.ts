@@ -30,4 +30,17 @@ async function previewTheme(themeName: string, content: string) {
     await transformContentsStreaming(
         context,
         Readable.from(content),
-        new (class extends Wr
+        new (class extends Writable {
+            write(chunk: Buffer) {
+                if (linesWritten < rows - 1) {
+                    process.stdout.write(chunk);
+                }
+                linesWritten++;
+                return true;
+            }
+        })()
+    );
+}
+
+function main() {
+    if (p
