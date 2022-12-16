@@ -43,4 +43,16 @@ async function previewTheme(themeName: string, content: string) {
 }
 
 function main() {
-    if (p
+    if (process.argv.length !== 4) {
+        console.error(`Usage: ${process.argv[1]} <sha> <theme name>`);
+        process.exit(1);
+    }
+
+    const [, , sha, themeName] = process.argv;
+
+    const content = execSync(`git show ${sha}`).toString();
+
+    // Clear screen
+    process.stdout.write('\x1bc');
+
+    previewThe
