@@ -55,4 +55,7 @@ function main() {
     // Clear screen
     process.stdout.write('\x1bc');
 
-    previewThe
+    previewTheme(themeName, content);
+}
+
+main();
