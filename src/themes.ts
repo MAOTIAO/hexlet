@@ -138,3 +138,47 @@ export function reduceThemeColors(colors: ThemeColor[]): ThemeColor {
     let themeColor: ThemeColor = {};
     for (let i = colors.length - 1; i >= 0; i--) {
         themeColor = mergeThemeColors(themeColor, colors[i]);
+    }
+    return themeColor;
+}
+
+export type Theme = {
+    SYNTAX_HIGHLIGHTING_THEME?: string;
+} & {
+    [key in ThemeColorName]: ThemeColor;
+};
+
+export function parseColorDefinition(definition: ColorDefinition): ThemeColor {
+    return {
+        color: definition.color ? hexToRgba(definition.color) : undefined,
+        backgroundColor: definition.backgroundColor
+            ? hexToRgba(definition.backgroundColor)
+            : undefined,
+        modifiers: definition.modifiers,
+    };
+}
+
+function loadThemeDefinition(themeName: string): ThemeDefinition {
+    return JSON.parse(
+        fs.readFileSync(path.join(THEMES_DIR, `${themeName}.json`)).toString()
+    ) as ThemeDefinition;
+}
+
+export function loadTheme(themeName: string): Theme {
+    const themeDefinition = loadThemeDefinition(themeName);
+
+    const theme: Partial<Theme> = {
+        SYNTAX_HIGHLIGHTING_THEME: themeDefinition.SYNTAX_HIGHLIGHTING_THEME,
+    };
+
+    const themeColorNames = Object.keys(ThemeColorName) as ThemeColorName[];
+    for (const variableName of themeColorNames) {
+        const value = themeDefinition[variableName];
+        if (!value) {
+            assert.fail(`${variableName} is missing in theme`);
+        }
+        theme[variableName] = parseColorDefinition(value);
+    }
+
+    return theme as Theme;
+}
