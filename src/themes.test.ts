@@ -23,4 +23,8 @@ test('second color wins with no transparency', () => {
 test('first color wins with full transparency', () => {
     expect(
         mergeColors(
-     
+            { r: 255, g: 0, b: 0, a: 255 },
+            { r: 0, g: 255, b: 0, a: 0 }
+        )
+    ).toEqual({ r: 255, g: 0, b: 0, a: 255 });
+});
