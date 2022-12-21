@@ -11,4 +11,11 @@ export async function transformContentsStreaming(
     output: Writable
 ): Promise<void> {
     return new Promise((resolve, reject) => {
-        const transformedInput 
+        const transformedInput = Readable.from(
+            iterWithNewlines(
+                context,
+                iterSideBySideDiffs(
+                    context,
+                    iterReplaceTabsWithSpaces(
+                        context,
+                        iterlinesFromReadable(i
