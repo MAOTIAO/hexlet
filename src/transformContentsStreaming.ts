@@ -18,4 +18,14 @@ export async function transformContentsStreaming(
                     context,
                     iterReplaceTabsWithSpaces(
                         context,
-                        iterlinesFromReadable(i
+                        iterlinesFromReadable(input)
+                    )
+                )
+            )
+        );
+
+        stream.pipeline(transformedInput, output, (err) => {
+            if (err) {
+                switch (err.code) {
+                    case 'EPIPE':
+                        // This can happen if the process exit
