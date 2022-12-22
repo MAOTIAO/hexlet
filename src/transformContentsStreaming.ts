@@ -37,3 +37,6 @@ export async function transformContentsStreaming(
                 }
             }
             resolve();
+        });
+    });
+}
