@@ -22,4 +22,15 @@ function getLineBreaksForString(string: string, width: number): number[] {
         }
 
         // word can fit in the new line, so start a new one
-     
+        if (wordLength <= width) {
+            flushLine();
+            curLineEnd = endIndex;
+            budget -= wordLength;
+            return;
+        }
+
+        // word is too long to fit in any line, so lets break it and push each
+        // part
+        while (startIndex < endIndex) {
+            if (budget === 0) {
+       
