@@ -13,4 +13,13 @@ function getLineBreaksForString(string: string, width: number): number[] {
     }
 
     function pushWord(startIndex: number, endIndex: number) {
-        con
+        const wordLength = endIndex - startIndex;
+        // word can fit on current line
+        if (wordLength <= budget) {
+            curLineEnd = endIndex;
+            budget -= wordLength;
+            return;
+        }
+
+        // word can fit in the new line, so start a new one
+     
