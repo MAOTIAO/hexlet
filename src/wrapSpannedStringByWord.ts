@@ -51,4 +51,15 @@ function getLineBreaksForString(string: string, width: number): number[] {
         const isSpace = SPACE_REGEX.test(string[curIndex]);
         if (isSpace) {
             pushWord(prevIndex, curIndex);
-            prevIn
+            prevIndex = curIndex;
+        } else if (prevIsSpace) {
+            pushWord(prevIndex, curIndex);
+            prevIndex = curIndex;
+        }
+        prevIsSpace = isSpace;
+        curIndex++;
+    }
+    if (prevIndex < curIndex) {
+        pushWord(prevIndex, curIndex);
+    }
+  
