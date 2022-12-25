@@ -43,4 +43,12 @@ function getLineBreaksForString(string: string, width: number): number[] {
     }
 
     let prevIndex = 0;
-    l
+    let curIndex = 1;
+    let prevIsSpace = SPACE_REGEX.test(string[prevIndex]);
+
+    // Add one word at a time
+    while (curIndex < string.length) {
+        const isSpace = SPACE_REGEX.test(string[curIndex]);
+        if (isSpace) {
+            pushWord(prevIndex, curIndex);
+            prevIn
