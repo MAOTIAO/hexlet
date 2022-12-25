@@ -33,4 +33,14 @@ function getLineBreaksForString(string: string, width: number): number[] {
         // part
         while (startIndex < endIndex) {
             if (budget === 0) {
-       
+                flushLine();
+            }
+            let remainingLengthInLine = Math.min(budget, endIndex - startIndex);
+            curLineEnd += remainingLengthInLine;
+            startIndex += remainingLengthInLine;
+            flushLine();
+        }
+    }
+
+    let prevIndex = 0;
+    l
