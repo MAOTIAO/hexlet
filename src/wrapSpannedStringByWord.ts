@@ -74,4 +74,13 @@ export function* wrapSpannedStringByWord<T>(
     width: number
 ): Iterable<SpannedString<T>> {
     // Short circuit if no wrapping is required
-    const string
+    const string = spannedString.getString();
+    if (string.length < width) {
+        yield spannedString;
+        return;
+    }
+
+    const lineBreaks = getLineBreaksForString(string, width);
+    let prevLineBreak = 0;
+    for (const lineBreak of lineBreaks) {
+        yield spa
