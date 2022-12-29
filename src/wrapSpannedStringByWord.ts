@@ -62,4 +62,16 @@ function getLineBreaksForString(string: string, width: number): number[] {
     if (prevIndex < curIndex) {
         pushWord(prevIndex, curIndex);
     }
-  
+    if (budget < width) {
+        flushLine();
+    }
+
+    return lineBreaks;
+}
+
+export function* wrapSpannedStringByWord<T>(
+    spannedString: SpannedString<T>,
+    width: number
+): Iterable<SpannedString<T>> {
+    // Short circuit if no wrapping is required
+    const string
