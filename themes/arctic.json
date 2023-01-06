@@ -1,3 +1,16 @@
 {
     "SYNTAX_HIGHLIGHTING_THEME": "nord",
-    "DEF
+    "DEFAULT_COLOR": {
+        "color": "#E5E9F0",
+        "backgroundColor": "#2b2b2b"
+    },
+    "COMMIT_HEADER_COLOR": {
+        "color": "#4C566A"
+    },
+    "COMMIT_HEADER_LABEL_COLOR": {
+        "color": "#88C0D0"
+    },
+    "COMMIT_SHA_COLOR": {
+        "color": "#BF616A"
+    },
+    "COMMIT_AUTHOR_COLOR": {
