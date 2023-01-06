@@ -29,4 +29,17 @@
         "color": "#EBCB8B"
     },
     "BORDER_COLOR": {
-        "co
+        "color": "#EBCB8B"
+    },
+    "HUNK_HEADER_COLOR": {
+        "color": "#4C566A"
+    },
+    "DELETED_WORD_COLOR": {
+        "color": "#EBCB8B",
+        "backgroundColor": "#BF616A33"
+    },
+    "INSERTED_WORD_COLOR": {
+        "color": "#EBCB8B",
+        "backgroundColor": "#A3BE8C33"
+    },
+    "DE
