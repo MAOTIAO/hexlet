@@ -83,4 +83,10 @@ export function* wrapSpannedStringByWord<T>(
     const lineBreaks = getLineBreaksForString(string, width);
     let prevLineBreak = 0;
     for (const lineBreak of lineBreaks) {
-        yield spa
+        yield spannedString.slice(prevLineBreak, lineBreak);
+        prevLineBreak = lineBreak;
+    }
+    if (prevLineBreak < string.length - 1) {
+        yield spannedString.slice(prevLineBreak);
+    }
+}
