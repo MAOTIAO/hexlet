@@ -42,4 +42,17 @@
         "color": "#EBCB8B",
         "backgroundColor": "#A3BE8C33"
     },
-    "DE
+    "DELETED_LINE_NO_COLOR": {
+        "color": "#BF616A"
+    },
+    "INSERTED_LINE_NO_COLOR": {
+        "color": "#A3BE8C"
+    },
+    "UNMODIFIED_LINE_NO_COLOR": {
+        "color": "#4C566A"
+    },
+    "DELETED_LINE_COLOR": {
+        "color": "#BF616A",
+        "backgroundColor": "#3a3035"
+    },
+    "INSERT
