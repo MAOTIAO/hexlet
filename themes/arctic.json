@@ -55,4 +55,12 @@
         "color": "#BF616A",
         "backgroundColor": "#3a3035"
     },
-    "INSERT
+    "INSERTED_LINE_COLOR": {
+        "color": "#A3BE8C",
+        "backgroundColor": "#303a35"
+    },
+    "UNMODIFIED_LINE_COLOR": {},
+    "MISSING_LINE_COLOR": {
+        "backgroundColor": "#2E3440"
+    }
+}
