@@ -15,3 +15,18 @@
     },
     "COMMIT_AUTHOR_COLOR": {
         "color": "#00aaee"
+    },
+    "COMMIT_DATE_COLOR": {
+        "color": "#cccccc"
+    },
+    "COMMIT_MESSAGE_COLOR": {
+        "color": "#cccccc"
+    },
+    "COMMIT_TITLE_COLOR": {
+        "modifiers": ["bold"]
+    },
+    "FILE_NAME_COLOR": {
+        "color": "#ffdd99"
+    },
+    "BORDER_COLOR": {
+        "
