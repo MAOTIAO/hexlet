@@ -41,4 +41,15 @@
     },
     "INSERTED_WORD_COLOR": {
         "color": "#ccffcc",
-        "backgroundColor": "#00ff00
+        "backgroundColor": "#00ff0033"
+    },
+    "DELETED_LINE_NO_COLOR": {
+        "color": "#00000022",
+        "backgroundColor": "#00000022"
+    },
+    "INSERTED_LINE_NO_COLOR": {
+        "color": "#00000022",
+        "backgroundColor": "#00000022"
+    },
+    "UNMODIFIED_LINE_NO_COLOR": {
+        "color": "#66666
