@@ -29,4 +29,16 @@
         "color": "#ffdd99"
     },
     "BORDER_COLOR": {
-        "
+        "color": "#ffdd9966",
+        "modifiers": ["dim"]
+    },
+    "HUNK_HEADER_COLOR": {
+        "modifiers": ["dim"]
+    },
+    "DELETED_WORD_COLOR": {
+        "color": "#ffcccc",
+        "backgroundColor": "#ff000033"
+    },
+    "INSERTED_WORD_COLOR": {
+        "color": "#ccffcc",
+        "backgroundColor": "#00ff00
