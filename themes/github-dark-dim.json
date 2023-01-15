@@ -20,4 +20,16 @@
         "color": "#c6e6ff",
         "modifiers": ["bold"]
     },
-    "BORDER_C
+    "BORDER_COLOR": {
+        "color": "#444c56",
+        "backgroundColor": "#22272e"
+    },
+    "FILE_NAME_COLOR": {
+        "color": "#adbac7",
+        "backgroundColor": "#22272e"
+    },
+    "HUNK_HEADER_COLOR": {
+        "backgroundColor": "#263441"
+    },
+    "DELETED_WORD_COLOR": {
+ 
