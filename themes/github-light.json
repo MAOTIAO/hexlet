@@ -9,4 +9,17 @@
         "backgroundColor": "#f1f8fe"
     },
     "COMMIT_HEADER_LABEL_COLOR": {
-        "color": "#5860
+        "color": "#586069"
+    },
+    "COMMIT_AUTHOR_COLOR": {
+        "color": "#444d56"
+    },
+    "COMMIT_SHA_COLOR": {
+        "color": "#444d56"
+    },
+    "COMMIT_DATE_COLOR": {
+        "color": "#444d56"
+    },
+    "COMMIT_MESSAGE_COLOR": {
+        "color": "#444d56",
+        "backgroundColor": "#
