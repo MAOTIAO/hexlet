@@ -1,2 +1,12 @@
 {
-  
+    "SYNTAX_HIGHLIGHTING_THEME": "github-light",
+    "DEFAULT_COLOR": {
+        "color": "#6a737d",
+        "backgroundColor": "#ffffff"
+    },
+    "COMMIT_HEADER_COLOR": {
+        "color": "#24292e",
+        "backgroundColor": "#f1f8fe"
+    },
+    "COMMIT_HEADER_LABEL_COLOR": {
+        "color": "#5860
