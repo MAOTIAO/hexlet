@@ -22,4 +22,18 @@
     },
     "COMMIT_MESSAGE_COLOR": {
         "color": "#444d56",
-        "backgroundColor": "#
+        "backgroundColor": "#f1f8fe"
+    },
+    "COMMIT_TITLE_COLOR": {
+        "color": "#05264c",
+        "modifiers": ["bold"]
+    },
+    "BORDER_COLOR": {
+        "color": "#e1e4e8"
+    },
+    "FILE_NAME_COLOR": {
+        "color": "#05264c"
+    },
+    "HUNK_HEADER_COLOR": {
+        "color": "#4c5154",
+        
