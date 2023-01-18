@@ -60,4 +60,11 @@
         "backgroundColor": "#ffeef0"
     },
     "INSERTED_LINE_COLOR": {
-        "
+        "color": "#24292e",
+        "backgroundColor": "#e6ffed"
+    },
+    "UNMODIFIED_LINE_COLOR": {},
+    "MISSING_LINE_COLOR": {
+        "backgroundColor": "#fafbfc"
+    }
+}
