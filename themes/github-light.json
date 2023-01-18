@@ -36,4 +36,16 @@
     },
     "HUNK_HEADER_COLOR": {
         "color": "#4c5154",
-        
+        "backgroundColor": "#f1f8ff"
+    },
+    "DELETED_WORD_COLOR": {
+        "backgroundColor": "#fdb8c0"
+    },
+    "INSERTED_WORD_COLOR": {
+        "backgroundColor": "#acf2bd"
+    },
+    "DELETED_LINE_NO_COLOR": {
+        "color": "#c2a9ad",
+        "backgroundColor": "#ffdce0"
+    },
+    "INSERTED_LINE_NO_COLOR"
