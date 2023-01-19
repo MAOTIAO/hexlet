@@ -11,4 +11,18 @@
     "COMMIT_SHA_COLOR": {},
     "COMMIT_AUTHOR_COLOR": {},
     "COMMIT_DATE_COLOR": {},
-    "COMMI
+    "COMMIT_MESSAGE_COLOR": {
+        "color": "#eeeeee"
+    },
+    "COMMIT_TITLE_COLOR": {
+        "modifiers": ["bold"]
+    },
+    "FILE_NAME_COLOR": {
+        "color": "#ffffff"
+    },
+    "BORDER_COLOR": {
+        "color": "#666666"
+    },
+    "HUNK_HEADER_COLOR": {
+        "modifiers": ["dim"],
+        "color": "
