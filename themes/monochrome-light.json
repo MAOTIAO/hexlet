@@ -2,4 +2,16 @@
     "SYNTAX_HIGHLIGHTING_THEME": "",
     "DEFAULT_COLOR": {
         "color": "#666666",
-        "backgroundColo
+        "backgroundColor": "#dddddd"
+    },
+    "COMMIT_HEADER_COLOR": {
+        "color": "#111111"
+    },
+    "COMMIT_HEADER_LABEL_COLOR": {},
+    "COMMIT_SHA_COLOR": {},
+    "COMMIT_AUTHOR_COLOR": {},
+    "COMMIT_DATE_COLOR": {},
+    "COMMIT_MESSAGE_COLOR": {
+        "color": "#111111"
+    },
+  
