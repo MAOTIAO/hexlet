@@ -25,4 +25,15 @@
     },
     "HUNK_HEADER_COLOR": {
         "modifiers": ["dim"],
-        "color": "
+        "color": "#ffffff"
+    },
+    "DELETED_LINE_NO_COLOR": {
+        "color": "#ffffff",
+        "backgroundColor": "#00000033"
+    },
+    "INSERTED_LINE_NO_COLOR": {
+        "color": "#ffffff",
+        "backgroundColor": "#00000033"
+    },
+    "UNMODIFIED_LINE_NO_COLOR": {
+        "
