@@ -48,4 +48,12 @@
     },
     "UNMODIFIED_LINE_COLOR": {},
     "MISSING_LINE_COLOR": {},
-    "DEL
+    "DELETED_WORD_COLOR": {
+        "color": "#222222",
+        "backgroundColor": "#aaaaaa"
+    },
+    "INSERTED_WORD_COLOR": {
+        "color": "#222222",
+        "backgroundColor": "#aaaaaa"
+    }
+}
