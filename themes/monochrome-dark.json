@@ -36,4 +36,16 @@
         "backgroundColor": "#00000033"
     },
     "UNMODIFIED_LINE_NO_COLOR": {
-        "
+        "backgroundColor": "#00000033"
+    },
+    "DELETED_LINE_COLOR": {
+        "color": "#ffffff",
+        "backgroundColor": "#333333"
+    },
+    "INSERTED_LINE_COLOR": {
+        "color": "#ffffff",
+        "backgroundColor": "#333333"
+    },
+    "UNMODIFIED_LINE_COLOR": {},
+    "MISSING_LINE_COLOR": {},
+    "DEL
