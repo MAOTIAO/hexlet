@@ -37,4 +37,15 @@
         "backgroundColor": "#ffffff33"
     },
     "DELETED_LINE_COLOR": {
-        "color": "#00000
+        "color": "#000000",
+        "backgroundColor": "#cccccc"
+    },
+    "INSERTED_LINE_COLOR": {
+        "color": "#000000",
+        "backgroundColor": "#cccccc"
+    },
+    "UNMODIFIED_LINE_COLOR": {},
+    "MISSING_LINE_COLOR": {},
+    "DELETED_WORD_COLOR": {
+        "color": "#dddddd",
+        "backgroundColor": "#66666
