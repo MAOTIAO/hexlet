@@ -1,0 +1,8 @@
+{
+    "SYNTAX_HIGHLIGHTING_THEME": "solarized-dark",
+    "DEFAULT_COLOR": {
+        "color": "#839496",
+        "backgroundColor": "#002b36"
+    },
+    "COMMIT_HEADER_COLOR": {},
+    "COMM
