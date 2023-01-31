@@ -18,4 +18,16 @@
     "COMMIT_MESSAGE_COLOR": {
         "color": "#eee8d5"
     },
-    "COMMI
+    "COMMIT_TITLE_COLOR": {},
+    "FILE_NAME_COLOR": {
+        "color": "#93a1a1"
+    },
+    "BORDER_COLOR": {
+        "color": "#93a1a1"
+    },
+    "HUNK_HEADER_COLOR": {
+        "color": "#586e75",
+        "backgroundColor": "#073642"
+    },
+    "DELETED_WORD_COLOR": {
+     
