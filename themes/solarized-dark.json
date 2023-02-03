@@ -30,4 +30,16 @@
         "backgroundColor": "#073642"
     },
     "DELETED_WORD_COLOR": {
-     
+        "backgroundColor": "#dc322f33"
+    },
+    "INSERTED_WORD_COLOR": {
+        "backgroundColor": "#85990033"
+    },
+    "DELETED_LINE_NO_COLOR": {
+        "color": "#dc322f"
+    },
+    "INSERTED_LINE_NO_COLOR": {
+        "color": "#859900"
+    },
+    "UNMODIFIED_LINE_NO_COLOR": {
+        "backgroundColor": "#
