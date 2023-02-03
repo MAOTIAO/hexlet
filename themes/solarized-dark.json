@@ -42,4 +42,16 @@
         "color": "#859900"
     },
     "UNMODIFIED_LINE_NO_COLOR": {
-        "backgroundColor": "#
+        "backgroundColor": "#073642"
+    },
+    "DELETED_LINE_COLOR": {
+        "color": "#dc322f",
+        "backgroundColor": "#202b36"
+    },
+    "INSERTED_LINE_COLOR": {
+        "color": "#859900",
+        "backgroundColor": "#003b36"
+    },
+    "UNMODIFIED_LINE_COLOR": {},
+    "MISSING_LINE_COLOR": {}
+}
