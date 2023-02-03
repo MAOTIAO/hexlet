@@ -33,3 +33,28 @@
     "DELETED_WORD_COLOR": {
         "color": "#839496",
         "backgroundColor": "#dc322f33"
+    },
+    "INSERTED_WORD_COLOR": {
+        "color": "#839496",
+        "backgroundColor": "#85990033"
+    },
+    "DELETED_LINE_NO_COLOR": {
+        "color": "#dc322f"
+    },
+    "INSERTED_LINE_NO_COLOR": {
+        "color": "#859900"
+    },
+    "UNMODIFIED_LINE_NO_COLOR": {
+        "backgroundColor": "#eee8d5"
+    },
+    "DELETED_LINE_COLOR": {
+        "color": "#dc322f",
+        "backgroundColor": "#fde6d3"
+    },
+    "INSERTED_LINE_COLOR": {
+        "color": "#859900",
+        "backgroundColor": "#edf6d3"
+    },
+    "UNMODIFIED_LINE_COLOR": {},
+    "MISSING_LINE_COLOR": {}
+}
