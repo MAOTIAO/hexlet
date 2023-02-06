@@ -13,4 +13,13 @@
 -   [x] Handle moves and renames without diffs
 -   [x] Look into EPIPE errors when used with git log
 -   [x] Support line wrapping
--   [x] Ensure compatibilit
+-   [x] Ensure compatibility to node12
+-   [x] Publish to npm
+-   [x] Improv line wrap perf
+-   [x] Read settings from git config
+-   [x] Add README
+-   [x] Fix binary file diffs not showing file names
+-   [x] Test on windows
+-   [x] Highlight changes in lines
+-   [x] Show unified diff on narrow widths
+-   [x] S
