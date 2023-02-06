@@ -22,4 +22,10 @@
 -   [x] Test on windows
 -   [x] Highlight changes in lines
 -   [x] Show unified diff on narrow widths
--   [x] S
+-   [x] Semi-automate screenshots with a script
+-   [x] Fix unified diffs
+-   [x] Test on very large diffs
+-   [x] Syntax highlighting
+-   [x] Simplify operations with formatted strings using something like SpannableStringBuilder
+-   [x] Highlight changes in unified mode
+-   [x] Make s
