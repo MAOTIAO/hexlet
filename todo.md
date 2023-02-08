@@ -28,4 +28,9 @@
 -   [x] Syntax highlighting
 -   [x] Simplify operations with formatted strings using something like SpannableStringBuilder
 -   [x] Highlight changes in unified mode
--   [x] Make s
+-   [x] Make sure to pad wrapped lines in commits
+-   [x] Wrapped lines on the left with inline changes leak formatting to the right
+-   [x] Support alpha in colors
+-   [x] Keep colors from --stat
+-   [x] Tests for syntax highlighting
+-   [ ] Load shiki languages on-demand when https://github.com/shikijs/shiki/iss
