@@ -33,4 +33,10 @@
 -   [x] Support alpha in colors
 -   [x] Keep colors from --stat
 -   [x] Tests for syntax highlighting
--   [ ] Load shiki languages on-demand when https://github.com/shikijs/shiki/iss
+-   [ ] Load shiki languages on-demand when https://github.com/shikijs/shiki/issues/438 is fixed
+-   [ ] Benchmark for syntax highlighting
+-   [ ] Display 3-way merge diffs (e.g. during merge conflicts)
+-   [ ] See why `less` occasionally goes into search mode
+-   [ ] Test on linux
+-   [ ] Support custom themes
+-   [ ] Calculate correct display widths, e.g. https
